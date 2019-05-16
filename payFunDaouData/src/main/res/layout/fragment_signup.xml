@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_signup"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddinglayout"
+    android:paddingRight="@dimen/paddinglayout" >
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="3000" />
+
+    <ImageView
+        android:id="@+id/btnSignup1"
+        style="@style/btnSignUp"
+        android:background="@drawable/btnsignup1_s"
+        android:src="@drawable/btnsignup1" />
+     
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="111" />
+
+    <ImageView
+        android:id="@+id/btnSignup3"
+        style="@style/btnSignUp"
+        android:background="@drawable/btnsignup3_s"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/btnsignup3" />
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="111" />
+
+    <ImageView
+        android:id="@+id/btnSignup2"
+        style="@style/btnSignUp"
+        android:visibility="invisible"
+        android:background="@drawable/btnsignup2_s"
+        android:src="@drawable/btnsignup2" />
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="472" />
+
+    <ImageView
+        style="@style/btnSignUp"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/logo_signup" />
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="833" />
+
+</LinearLayout>

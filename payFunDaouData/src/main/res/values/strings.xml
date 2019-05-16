@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">DaouData</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- sqlite message -->
+    <string name="sqlite_require">서버가 응답하지 않습니다.</string>
+    <string name="sqlite_error">서버에 문제가 있습니다. 다시시도해주세요.</string>
+    <string name="sqlite_success">성공.</string>
+    <string name="sqlite_exist">이미 데이타가 존재 합니다.</string>
+    <string name="sqlite_confirm">비밀번호가 서로 일치하지 않습니다.</string>
+    <string name="sqlite_select_branch">대리점번호를 입력해 주세요</string>
+
+    <!-- header title -->
+    <string name="title_login">로그인</string>
+    <string name="title_profile">프로필</string>
+    <string name="title_credit">신용카드결제</string>
+    <string name="title_cash">현금 결제</string>
+    <string name="title_history">내역 조회</string>
+    <string name="title_coupon">쿠폰관리</string>
+    <string name="title_coupon_details">Coupon 등록</string>
+    <string name="title_extended">기간연장</string>
+    <string name="title_signup">회원가입</string>
+    <string name="title_user_add">회원가입\n신규 사업자 등록 (밴 신규)</string>
+    <string name="title_user_edit">사용자 정보 수정</string>
+    <string name="title_signup_complete">회원가입 완료</string>
+    <string name="title_register_van">단말기 등록/수정</string>
+    <string name="title_list_company">단말기 리스트</string>
+    <string name="title_payment_period">사용기간 결제</string>
+    <string name="title_receipt">신용카드 영수증</string>
+    <string name="title_receipt_cash">현금 영수증</string>
+    <string name="title_config">일반설정</string>
+    <string name="title_cancellist">분기별내역</string>
+    <string name="title_canceldailylist">일별목록</string>
+    <string name="title_couponlist">쿠폰 리스트</string>
+    
+    <string name="title_cancel_selector"> 결제 취소 </string>
+    <string name="title_cancel_payment"> 결제취소 </string>
+    <string name="title_cancel_cash"> 현금 취소 </string>
+    <string name="title_register_user">가맹점 직원 등록</string>
+    <string name="title_no_string"> </string>
+    <!-- login -->
+    <string name="login_user_email_hint">아이디 (이메일)</string>
+    <string name="login_passwd_hint">비밀 번호</string>
+    <string name="login_stored_in_the_phone">이 전화기에 저장</string>
+    <string name="login_find">ID/PW 찾기</string>
+    <string name="login_register"> 사용자 등록</string>
+    <string name="login_login_btn">로그인</string>
+    <string name="login_signup_btn">회원 가입</string>
+    <string name="login_cancel_btn">취소</string>
+
+    <!--hint  -->
+     <string name="hint_txtcard_cash">휴대폰 또는 사업자번호 입력</string>
+     <string name="hint_txtcard_cash2">금액을 입력해 주세요</string>
+     <string name="hint_txtcard_reader">카드를 읽혀주십시오.</string>
+     <string name="hint_txtpin_reader">PIN</string>
+     
+     <string name="hint_txtcard_keyin">카드번호를 입력해 주십시오.</string>
+     <string name="hint_txtcard_checkpass">카드를 접촉해 주십시오.</string>
+    
+    <!-- signup -->
+    <string name="signup_new_franchise_registration">신규 가맹점 등록\n(기존 밴가맹점이 아닌 경우)</string>
+    <string name="sign_up_new_registration">신규 등록\n(밴 가맹점인 경우)</string>
+    <string name="signup_registration_staff_affiliated_companies">가맹사업자 직원 등록</string>
+
+    <string-array name="register_arrays">
+        <item>신규가맹점회원가입</item>
+        <item>신규 등록</item>
+        <item>직원 등록</item>
+        <item>정보 수정</item>
+    </string-array>
+    <string-array name="quarterly_arrays">
+        <item>1분기</item>
+        <item>2분기</item>
+        <item>3분기</item>
+        <item>4분기</item>
+    </string-array>
+     <string-array name="type_arrays">
+        <item>전체</item>
+        <item>신용</item>
+        <item>현금</item>
+        
+    </string-array>
+    <string-array name="reader_type">
+        <item>Bluetooth</item>
+        <item>Ear jack</item>
+    </string-array>
+
+    <!-- bluetooth -->
+    <string name="bt_search_btn">장치를 검색</string>
+    <string name="bt_stop_search_btn">중지</string>
+    <string name="bt_unregister_mobile_printer_">등록되지 않은 모바일프린터 입니다.</string>
+
+    <!-- dialog -->
+    <string name="log_title">Loading...</string>
+    <string name="log_conten">Please wait ...</string>
+    <!-- van -->
+    <string-array name="listvan">
+<!--       <item>SMT</item> -->
+<!--       <item>KSNet</item> -->
+<!--         <item>Kovan</item> -->
+<!--         <item>Nice</item> -->
+<!--         <item>STARVAN</item> -->
+<!--         <item>KOCES</item> -->
+      <item>JTNet</item>
+       
+    </string-array>
+    <string-array name="list_month">
+        <item>일시불</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>24</item>
+        <item>36</item>
+    </string-array>
+    
+    
+	<!-- Message -->
+    <string name="please_select_company_first">먼저 가맹점을 선택해야 합니다.</string>
+    <string name="test_card_disp">4227270020038400</string>
+    <string name="test_card_full">4227270020038400=18062211216216600000</string>
+    <string name="privacy_policy_add">전자금융거래약관, 개인정보 취급방침에 동의</string>
+    <string name="privacy_policy_edit">이 장치에 사용자 정보 저장</string>
+    <string name="please_input_total_amount">결제금액을 입력해 주세요.</string>
+    <string name="please_input_card_value">결제 정보를 입력 해 주세요.</string>
+    <string name="format_digital_clock">yyyy년 MM월 dd일 까지 사용이 가능합니다</string>
+    <string name="msg_requireSign">서명란에 싸인해 주십시요.</string>
+    <string name="msg_log_out">로그 아웃</string>
+    <string name="msg_recipt_is_not_saved">결제가 완료되었습니다.</string>
+    <string name="msg_recipt_will_be_synced_later">결제가 완료되었습니다.</string>
+    <string name="msg_recipt_is_not_saved_in_Local">결제가 완료되었습니다.</string>
+    <string name="msg_request_payment_is_not_successful">결제에 실패 하였습니다. 다시 시도해 주세요.</string>
+    <string name="msg_request_cancel_is_not_successful">결제 취소에 실패하였습니다. 다시 시도해 주세요.</string>
+    <string name="msg_recipt_cancel_will_be_synced_later">결제가 취소 되었습니다.</string>
+    <string name="msg_recipt_cancel_is_not_saved_in_Local">결제가 취소 되었습니다.</string>
+    <string name="msg_register_user_error">등록된 동일한 이메일 있습니다.</string>
+    <string name="msg_unable_to_connect_bluetooh_device">블루투스 장치에 연결할 수 없습니다.</string>
+    <string name="msg_insert_company_success">단말기 정보가 저장 되었습니다.</string>
+    <string name="msg_insert_company_failed">단말기 저장에 실패 하였습니다.</string>
+    <string name="msg_insert_company_to_server_failed"> 서버간 연결이 실패 하였습니다.</string>
+    <string name="msg_download_company_success">개시 거래요청이 성공하였습니다.</string>
+    <string name="msg_minmum_password_register">암호는 최소 6자리 입니다.</string>
+    <string name="msg_wrong_password">비밀번호가 일치하지 않습니다.</string>
+    <string name="msg_wrong_ID">아이디가 일치하지 않습니다.</string>
+    <string name="msg_email_exist">이미 존재하는 이메일 입니다.</string>
+    <string name="msg_companyno_exist">사업자 번호가 이미 등록되어 있습니다.</string>
+    <string name="msg_app_updated_title">새로운 업데이트 버전이 있습니다. 업데이트 하시겠습니까?</string>
+    <string name="msg_yes">예(yes)</string>
+    <string name="msg_no">아니요(No)</string>
+    <string name="msg_turn_off_wifi">결제정보 사용을 위해 무선인터넷을 중지 합니다.</string>
+    <string name="msg_exist_branch">코드가 확인 되었습니다.</string>
+    <string name="msg_not_exist_branch">코드번호가 일치하지 않습니다.</string>
+
+
+    <!--  -->
+    <string name="button_ok">OK</string>
+    <string name="msg_default_format">Format</string>
+    <string name="msg_default_meta">Metadata</string>
+    <string name="msg_default_time">Time</string>
+    <string name="msg_default_type">Type</string>
+    <string name="msg_unmount_usb">Sorry, the SD card is not accessible.</string>
+    <string name="msg_encode_contents_failed">Could not encode a barcode from the data provided.</string>
+    <string name="msg_default_status">Place a barcode inside the viewfinder rectangle to scan it.</string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the device.</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_invalid_value">Invalid value</string>
+    <string name="button_add_calendar">Add to calendar</string>
+    <string name="button_add_contact">Add contact</string>
+    <string name="button_book_search">Book Search</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_custom_product_search">Custom search</string>
+    <string name="button_dial">Dial number</string>
+    <string name="button_email">Send email</string>
+    <string name="button_get_directions">Get directions</string>
+    <string name="button_mms">Send MMS</string>
+    <string name="button_open_browser">Open browser</string>
+    <string name="button_product_search">Product search</string>
+    <string name="button_search_book_contents">Search contents</string>
+    <string name="button_share_app">Application</string>
+    <string name="button_share_bookmark">Bookmark</string>
+    <string name="button_share_by_email">Share via email</string>
+    <string name="button_share_by_sms">Share via SMS</string>
+    <string name="button_share_clipboard">Clipboard</string>
+    <string name="button_share_contact">Contact</string>
+    <string name="button_show_map">Show map</string>
+    <string name="button_sms">Send SMS</string>
+    <string name="button_web_search">Web search</string>
+    <string name="button_wifi">Connect to Network</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="result_address_book">Found contact info</string>
+    <string name="result_calendar">Found calendar event</string>
+    <string name="result_email_address">Found email address</string>
+    <string name="result_geo">Found geographic coordinates</string>
+    <string name="result_isbn">Found book</string>
+    <string name="msg_default_mms_subject">Hi</string>
+    <string name="msg_intent_failed">Sorry, the requested application could not be launched. The barcode contents may be invalid.</string>
+    <string name="result_product">Found product</string>
+    <string name="result_sms">Found SMS address</string>
+    <string name="result_tel">Found phone number</string>
+    <string name="result_text">Found plain text</string>
+    <string name="result_uri">Found URL</string>
+    <string name="result_wifi">Found WLAN Configuration</string>
+    <string name="sbc_name">Google Book Search</string>
+    <string name="wifi_changing_network">Requesting connection to network\u2026</string>
+
+    <!-- recipt -->
+    <string name="recipt_email_select_address">이메일 주소를 선택해 주세요!</string>
+    <string name="recipt_email_title">페이펀앱을 통해 발행된 영수증 입니다.</string>
+    <string name="recipt_email_choose_client">Choose an Email client :</string>
+    <string name="recipt_phone_select">전화번호를 입력해 주세요.</string>
+    <string name="recipt_unit">" 원"</string>
+    <string name="recipt_unit_p">" P"</string>
+    <string name="recipt_title_bank_balance_amount">잔액 </string>
+    
+    <!--  -->
+    <string name="intro_text">Touch to focus, and press the blue camera button to take photos. For more help, click Online help from Settings. Open Camera is completely free. If you like this app, please consider buying my donate app :) (see link in Settings, or Online help).\n\nPrivacy Policy: Location permission is required for geotagging, but this is disabled by default. If enabled, your location is encoded in the saved files (and it is only used for this purpose).\n\n(This message won\'t show again.)</string>
+    <string name="intro_ok">OK (This message won\'t show again)</string>
+    <string name="preference_category_camera_effects">Camera Effects</string>
+    <string name="preference_auto_stabilise">Auto-stabilise</string>
+    <string name="preference_auto_stabilise_summary">Images will be rotated so they are automatically level (photos only) (slower to take photos, and may fail on devices with too low memory)</string>
+    <string name="preference_color_effect">Apply a color effect</string>
+    <string name="preference_color_effect_summary">Applies the selected color effect to the photo</string>
+    <string name="preference_scene_mode">Apply a scene mode</string>
+    <string name="preference_scene_mode_summary">Optimise the photo for different scenes</string>
+    <string name="preference_white_balance">Set the white balance</string>
+    <string name="preference_white_balance_summary">Choose a setting to adjust the white balance</string>
+    <string name="preference_iso">Set the ISO</string>
+    <string name="preference_iso_summary">A higher value means more sensitive to light (may not work on some devices)</string>
+    <string name="preference_exposure">Set the exposure compensation</string>
+    <string name="preference_exposure_summary">Set to 0 for the default exposure compensation.</string>
+    <string name="preference_face_detection">Face detection</string>
+    <string name="preference_face_detection_summary">Use face detection instead of focus areas.</string>
+    <string name="preference_category_camera_controls">Camera Controls</string>
+    <string name="preference_timer">Timer</string>
+    <string name="preference_timer_summary">Set a timer for the camera</string>
+    <string name="preference_timer_beep">Timer beep</string>
+    <string name="preference_timer_beep_summary">Beep when timer is counting down or for burst mode delay</string>
+    <string name="preference_burst_mode">Burst mode</string>
+    <string name="preference_burst_mode_summary">Take multiple photos in succession</string>
+    <string name="preference_burst_interval">Burst mode interval</string>
+    <string name="preference_burst_interval_summary">Delay (if any) between taking photos in burst mode</string>
+    <string name="preference_screen_camera_controls_more">More camera controls…</string>
+    <string name="preference_pause_preview">Pause after taking photo</string>
+    <string name="preference_pause_preview_summary">Pause the screen after taking a photo, with the option to share or delete the photo</string>
+    <string name="preference_shutter_sound">Shutter sound</string>
+    <string name="preference_shutter_sound_summary">Play a sound when taking a photo (requires Android 4.2 or greater to disable)</string>
+    <string name="preference_volume_keys">Volume keys</string>
+    <string name="preference_volume_keys_summary">Set behaviour for when volume keys are pressed</string>
+    <string name="preference_screen_gui">On screen GUI…</string>
+    <string name="preference_preview_size">Preview size</string>
+    <string name="preference_preview_size_summary">How to choose the preview size</string>
+    <string name="preference_ui_placement">UI placement</string>
+    <string name="preference_ui_placement_summary">Whether to have a left-handed or right-handed user interface</string>
+    <string name="preference_save_location">Save location</string>
+    <string name="preference_save_location_summary">Name of folder to save the photo/video files in (can also be a full path)</string>
+    <string name="preference_show_zoom">Show zoom</string>
+    <string name="preference_show_zoom_summary">Display the current camera zoom level on screen (when zoomed in)</string>
+    <string name="preference_show_zoom_controls">Show zoom -/+ controls</string>
+    <string name="preference_show_zoom_controls_summary">Show the -/+ buttons for zoom control</string>
+    <string name="preference_free_memory">Show free memory</string>
+    <string name="preference_free_memory_summary">Display the remaining device storage space on screen</string>
+    <string name="preference_show_angle">Show angle</string>
+    <string name="preference_show_angle_summary">Display the current device orientation angle on screen</string>
+    <string name="preference_show_angle_line">Show angle line</string>
+    <string name="preference_show_angle_line_summary">Display horizontal level line</string>
+    <string name="preference_show_geo_direction">Show compass direction</string>
+    <string name="preference_show_geo_direction_summary">Display the compass direction of the device on screen</string>
+    <string name="preference_grid">Show a grid</string>
+    <string name="preference_grid_summary">Display one of various grids</string>
+    <string name="preference_thumbnail_animation">Show thumbnail animation</string>
+    <string name="preference_thumbnail_animation_summary">Display moving thumbnail animation when taking a photo</string>
+    <string name="preference_max_brightness">Force maximum brightness</string>
+    <string name="preference_max_brightness_summary">Force screen display to be at maximum brightness, rather than device default</string>
+    <string name="preference_category_camera_quality">Photo and Video Settings</string>
+    <string name="preference_screen_camera_quality">Photo and video settings…</string>
+    <string name="preference_resolution">Camera resolution</string>
+    <string name="preference_resolution_summary">Set the resolution of photos taken by the camera</string>
+    <string name="preference_quality">Image quality</string>
+    <string name="preference_quality_summary">Set the image quality of saved photo images (recommended value is 90%%)</string>
+    <string name="preference_location">Store location data (Geotagging)</string>
+    <string name="preference_location_summary">Store GPS location data in the photos</string>
+    <string name="video_quality">Video resolution</string>
+    <string name="video_quality_summary">Set the resolution of videos</string>
+    <string name="preference_force_video_4k">Force 4K UHD video (experimental)</string>
+    <string name="preference_force_video_4k_summary">Enable 3840x2160 resolution for video recording on back camera - this will only work if your device supports it, and may crash if not!</string>
+    <string name="preference_video_bitrate">Video bitrate (approx)</string>
+    <string name="preference_video_bitrate_summary">Set the approximate bitrate of videos (higher means better quality, but takes up more disk space; may cause video recording to fail if bitrate not supported)</string>
+    <string name="preference_video_fps">Video frame rate (approx)</string>
+    <string name="preference_video_fps_summary">Set the frame rate (FPS) of videos (may be approx, not guaranteed to be achieved, and may cause video recording to fail if frame rate not supported)</string>
+    <string name="preference_record_audio">Record audio</string>
+    <string name="preference_record_audio_summary">Record audio when recording video</string>
+    <string name="preference_record_audio_src">Audio source</string>
+    <string name="preference_record_audio_src_summary">Microphone to use for recording audio</string>
+    <string name="preference_category_online">Misc</string>
+    <string name="preference_online_help">Online help</string>
+    <string name="preference_donate">Donate to support development</string>
+    <string name="preference_donate_summary">If you like this app, please consider making a donation. You can do this by purchasing my "donation app" - click this option will open up the page for my donation app. Thanks!</string>
+    <string name="preference_about">About</string>
+    <string name="preference_about_summary">App and debug information</string>
+    <string name="about_ok">OK</string>
+    <string name="about_available">Available</string>
+    <string name="about_not_available">Not available</string>
+    <string name="about_copy_to_clipboard">Copy to clipboard</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="gallery">Gallery</string>
+    <string name="exposure">Exposure</string>
+    <string name="exposure_lock">Exposure Lock</string>
+    <string name="focus_mode">Focus Mode</string>
+    <string name="flash_mode">Flash Mode</string>
+    <string name="switch_camera">Switch Camera</string>
+    <string name="switch_video">Switch Video</string>
+    <string name="trash">Delete Last Picture</string>
+    <string name="share">Share Photo</string>
+    <string name="register_username_is_required">이름을 입력해야 합니다.</string>
+    <string name="register_email_is_required">이메일 아이디를 입력해야 합니다.</string>
+    <string name="register_password_is_required">비밀번호를 입력해야 합니다.</string>
+    <string name="register_password_retype_is_required">비밀번호가 일치하지 않습니다.</string>
+    <string name="register_companyno_is_required">사업자번호를 입력해야 합니다.</string>
+    <string name="register_companyphone_is_required">전화번호를 입력해야 합니다.</string>
+    <string name="register_address_is_required">주소항목을 입력해 주세요.</string>
+    <string name="register_addressdetails_is_required">주소 세부정보를 입력해 주세요.</string>
+    <string name="register_companyname_is_required">사업자명을 입력해 주세요.</string>
+    <string name="register_partnercode_is_required">대리점 코드를 입력해 주세요.(기본 000001)</string>
+    <string name="logout_message">PayFun에 로그인 하십시오</string>
+    <!-- Terms of Service -->
+    <string name="terms1">
+        ■개인정보 수집 및 이용안내\n
+제1조 수집,이용 목적\n
+1. 페이펀 서비스에 이용 신청에 대한 제공 및 유지 관리\n
+2. 법령상 의무이행\n
+3. 매출정보의 내역확인 통계자료 활용\n
+4. 상품 및 서비스 홍보 및 판매권유\n
+5. 사고조사, 분쟁해결 \n
+6. 고객 만족도 조사 등\n
+\n
+제2조 수집, 이용 항목\n
+1. 고유 식별정보 : 주민등록번호\n
+2. 개인정보 : 성명,주소,이메일,휴대폰번호,전화번호,상호,가맹점번호,사업자등록번호,업태,종목,사업장주소,전화번호,팩스번호\n
+3. 거래정보 : 매출정보, 멤버쉽 거래내역\n
+4. 정보제공에 동의한정보를 수집.이용\n
+\n
+제3조 제공 받는 자\n
+1. 전 카드사 (신용.체크.선불카드) \n
+2. 직불카드 를 취급 하는 전 은행\n
+3. 멤버쉽 서비스사 (전 카드사, SK텔레콘, KT, LG U+)\n
+4. 국세청 (현금영수증) \n
+\n
+제4조 제공 받는 자의 이용 목적\n
+1. 신용,체크,선불,직불카드 및 멤버쉽서비스, 현금영수증의 거래승인, 청구, 정산, 분쟁해결, 통계자료 활용 등\n
+2. 공공기관의 세무자료 수집\n
+3. 수집,이용에 동의한 정보 중 수탁업무 목적달성을 위해 필요한 최소한의 정보\n
+\n
+제5조 이용 기간 및 보유 기간\n
+1. 동의일로부터 제공 목적 달성시 까지\n
+\n
+제6조 거부권 및 거부시 불이익
+1. 동의가 없을경우 서비스 제공 또는 유지가 불가능
+
+    </string>
+    <string name="terms2">
+        이 약관은 (주)페이펀이 제공하는 페이펀 서비스(이하"서비스"라 함) 를 가맹점이 이용하는데 필요한 제반 사항을 정함을 목적으로 합니다.\n
+제 1 조 (목적) \n
+이 약관은 주식회사페이펀(이하 "회사"라 함) 가 제공하는 모든 서비스의 이용조건 및 절차에 관한 기본사항을 정하는데 목적이 있습니다.\n
+제 2 조 (약관의 적용) \n
+(1) 이 약관은 회사가 제공하는 모든 서비스의 이용절차 및 기타 필요한 사항에 적용됩니다. \n
+(2) 신용카드 이용과 관련된 사항은 신용카드 회원약관(개인회원, 기업회원) , 가맹점약관 및 여신전문금융업법, 할부거래 이용에 관한 법률, 개인정보보호법 등의 적용을 받습니다.\n 
+(3) 이 약관에 명시되지 않은 사항 및 각 사이트 별 해당 서비스에 대해서는 전자거래기본법, 정보통신망 이용촉진 및 정보보호에 관한 법률 등 관계법령, 해당 서비스 별 관련법령 \n
+및 회사가 정한 서비스의 세부이용지침 등의 규정에 의합니다.\n
+(4) 제휴사의 일부 서비스는 본 이용약관의 동의내용으로 개인(신용) 정보 동의 절차가 대체되어 개인(신용) 정보 동의절차를 일부 생략할 수 있습니다.\n
+제 3 조 (용어의 정의) \n
+(1) 이 약관에서 사용하는 용어의 정의는 다음과 같습니다. \n
+1. "서비스"라 함은 회사가 제공한 플랫폼 및 회사가 직접 운영하는 인터넷 사이트 등에서 제공하는 온/오프라인 형식의 모든 서비스(모바일 APP서비스 포함) 를 말합니다. \n
+2. "회원"이라 함은 회사가 제공하는 서비스를 이용하기 위해 필요한 아이디(ID) 와 비밀번호(PASSWORD) 를 설정하는 등 소정의 절차를 거쳐 회사와 서비스 이용계약을 체결하고 서비스 이용약관에 따라 서비스를 제공받는 자를 말합니다. \n
+3. "비밀번호(PASSWORD) "라 함은 회원의 비밀보호 및 회원 본인임을 확인하고 서비스에 제공되는 각종 정보의 보안을 위해 회원 자신이 설정합니다. 비밀번호(PASSWORD) 는 플랫폼의 여건 등의 따라 간략한 형식으로 변경 될 수 있습니다.\n
+(2) 제1항의 용어를 제외한 용어의 정의는 거래관행 및 관계법령에 따라 변경될 수 있습니다.\n
+제 4 조 (서비스의 내용) \n
+(1) 회사는 회원에게 다음 각 호의 서비스를 제공합니다. 단, 아래 1호의 서비스는 가입 즉시 사용하실 수 있으며, 기타 서비스는 이용 시 별도의 동의 과정을 거칠 수 있습니다.\n 
+1. PAYFUN 기본 서비스 \n
+2. PAYFUN 이용고객 대상 홍보 및 공지사항 안내 서비스 \n
+3. 기타 제휴상품 서비스 약관에서 별도로 정하는 서비스 등 \n
+(2) 단, 회사의 사정상 각 서비스 별로 제공일정 및 제공방법이 변경되거나 지연, 미제공 될 수도 있습니다. \n
+(3) 회사는 서비스 변경 시, 그 변경되는 서비스의 내용 및 제공일자를 제8조 7항에서 정한 방법으로 회원에게 통지하고 전 1항에서 정한 서비스를 변경하여 제공할 수 있습니다. \n
+제 5 조 (서비스 이용계약의 성립) 
+(1) 서비스 이용계약은 회원이 되고자 하는 자가 회사의 본 약관에 회사가 정한 소정의 방식(휴대폰 본인인증 등) 으로 동의하고 정해진 가입양식에 회원정보 \n
+(ID, PASSWORD, 이름, 주소, 이메일, 회사명, 가맹점명, 회사대표자명, 가맹점대표자명, 사업자번호, 가맹점번호, 전화번호, 기타 회사가 필요하다고 인정하는 사항 등) 를 기입하고\n
+ "동의" 또는 "확인" 버튼을 누르면 회사가 이에 대해 승낙함으로써 성립됩니다. \n
+(2) 회원으로 가입하는 자는 회사가 요구하는 개인신상정보를 성실히 제공하여야 합니다. \n
+(3) 회사는 아이디(ID) 와 비밀번호(PASSWORD) 를 접수 받아 이를 관리하고, 서비스 이용 시에 아이디(ID) , 비밀번호(PASSWORD) 및 신용카드(체크 및 선불카드 포함) 회원의 경우 신용카드 비밀번호 또는 회사가 정한 소정의 방식으로 본인 인증을 위한 별도의 정보를 요구할 수 있습니다. \n
+(4) 회사는 회원의 정보보호 및 보안강화를 위하여 회사가 제공하는 특정 서비스에 있어서 인증방법을 로그인시의 아이디(ID) 및 비밀번호(PASSWORD) 와 달리 구성하도록 요구할 수 있습니다. 이 경우 회원이 이를 따르지 않음으로 인하여 발생하게 될 회원의 제반 손해에 대하여 회사는 책임을 지지 않습니다. \n
+(5) 회원은 본 이용약관을 통하여 회사 뿐만 아니라 회사의 서비스 제공을 위해 계약된 제휴사와의 계약도 성립되며, 회사는 서비스 제공을 위해 회원의 정보를 제공할 수 있습니다.\n
+제 6 조 (이용신청 및 승낙) \n
+(1) 회원은 서비스에 접속하거나 서비스를 이용하기 위해서는 아이디(ID) 와 비밀번호(PASSWORD) 또는 회사가 정한 소정의 인증 방식 등 별도의 정보를 입력하여야 하며, 이에 대해 회사는 입력내용의 일치 여부를 확인 후 승인한 자에 한해 이용하게 할 수 있습니다. \n
+(2) 회원의 자격에 따라 서비스 이용의 일부가 제한될 수 있으며, 각 사이트의 별도 이용계약 체결여부에 따라 회원 자격 및 서비스 이용 범위가 변동될 수 있습니다. \n
+(3) 회원은 기존에 계약조건에서 변경되는 행위(일부 서비스 추가/해지, 상품변경 등) 를 발생시킬 경우에 발생하는 패널티 및 추가 금액에 대하여 회사에서 정한 내규에 따라야 합니다. \n
+(4) 회사는 다음 각 호에 해당하는 사항이 발생한 경우에는 이용신청의 승낙을 유보할 수 있습니다. \n
+1. 기술상 서비스 제공이 불가능한 경우 \n
+2. 보안상 문제가 있다고 판단되는 경우 \n
+3. 기타 사유로 이용 승낙이 곤란한 경우 \n
+(5) 회사는 다음 각 호에 해당하는 이용신청에 대하여는 이를 승낙하지 아니할 수 있습니다. \n
+1. 이름이 실명이 아닌 경우 \n
+2. 다른 사람의 명의를 사용하여 신청한 경우 \n
+3. 이용신청 시 필요한 내용을 허위로 기재하여 신청한 경우 \n
+4. 사회의 안녕질서 또는 미풍양속을 저해할 목적으로 신청한 경우 \n
+5. 기타 회사가 정한 이용신청 요건에 미비 되었을 경우 \n
+제 7 조 (각종 정보의 제공) \n
+(1) 회사는 회원에게 회사의 다양한 상품/서비스 및 각종 행사, 생활정보 등의 소개와 안내를 서신우편물, 전화, Fax, E-Mail, 휴대전화메시지(SMS) 및 기타의 방법을 통해 제공할 수 있습니다. \n
+(2) 회원의 개인정보는 관련법률이 정하는 바에 따라 엄격히 관리되며, 회원은 원하지 않는 경우 회사가 제공하는 정보의 수신을 거부할 수 있습니다. \n
+(3) 회원이 서비스상에 게재되어 있는 광고를 이용하거나 서비스를 통한 광고주의 판촉활동에 참여하는 등의 방법으로 교신 또는 거래를 하는 것은 전적으로 회원과 광고주 간의 문제입니다. \n
+만약 회원과 광고주간에 문제가 발생할 경우에도 회원과 광고주가 직접 해결하여야 하며, 이와 관련하여 회사는 어떠한 책임도 지지 않습니다. \n
+(4) 회원이 회사가 제공하는 플랫폼을 통하여 제휴사의 상품을 사용하는 중에 문제가 발생할 경우 제휴사가 직접 해결하여야 하며, 이와 관련하여 회사는 기존에 기약한 책임 이외에는 책임을 지지 않습니다. \n
+제 8 조 (서비스의 제공 및 제한) \n
+(1) 회원은 회사가 제공하는 모든 서비스의 이용이 가능합니다. 다만, 회원 구분 및 등급 또는 유료서비스 등의 경우 일부 서비스 이용이 제한될 수 있습니다. \n
+(2) 서비스의 이용은 회사의 업무상 또는 기술상 특별한 지장이 없는 한 연중무휴 1일 24시간을 원칙으로 합니다. 다만, 서비스의 종류 및 내용에 따라 일부 서비스는 별도 이용시간을 정하여 운영할 수 있으며 이 경우 그 내용을 해당 서비스 이용화면에 공지함으로써 회원에게 통지합니다.\n 
+(3) 전 2항의 이용시간에도 불구하고 통신장애, 서비스 개발, 시스템 점검, 긴급조치 등 불가피한 사유에 의해 서비스 제공이 일정기간 동안 제한 또는 중단될 수 있습니다. \n
+(4) 회사는 서비스 이용에 제한을 하고자 하는 경우에는 그 사유 및 기간을 정하여 홈페이지 게시, 전자우편 등을 통해 회원에게 통지합니다. 다만, 전 3항의 사유를 포함하여 회사가 긴급하게 이용을 제한할 필요가 있다고 인정하는 경우에는 통지하지 아니할 수 있습니다. \n
+(5) 회사는 회원이 아이디(ID) , 비밀번호(PASSWORD) 등 회사가 정한 소정의 인증 방식으로 일정 횟수 이상 인증에 실패한 경우, 보안상의 이유로 서비스 이용을 제한할 수 있습니다. 인터넷안전결제(ISP) 나 공인인증서 비밀번호를 입력하여야 하는 경우, 인터넷안전결제(ISP) 나 공인인증서 약관에 준합니다. \n
+(6) 일정기간 이상 장기휴면 회원인 경우 안내 메일 또는 공지사항 게시 후 서비스 사용을 제한하거나 중지할 수 있습니다. 서비스 별로 휴면 기준 및 조치는 상이하며, 개별 서비스의 약관 및 이용안내, 공지사항 등에 준합니다. \n
+(7) 회사가 회원에게 개별공지가 필요한 경우, 회원이 등록한 기본연락정보(E-mail/휴대전화/주소 등) 를 통해 우선적으로 개별통지 합니다. 단, 회원이 등록한 기본연락정보가 없는 경우와 불특정 다수회원에 대한 공지를 하는 경우 각 사이트 등에 게시함으로써 개별통지에 갈음할 수 있습니다. \n
+이용약관 및 동의서 내용 등의 공통적인 변경사항은 회사 홈페이지 혹은 서비스 홈페이지 게시판에 기재되는 방식으로 개별통지에 갈음할 수 있습니다.\n
+제 9 조 (서비스 이용 수수료) \n
+(1) 회사는 서비스 이용계약에 따라 고객에게 별도의 금액을 청구할 수 있으며, 이를 회사가 아닌 회사의 관리대리점이 대행 또는 수취할 수 있도록 할 수 있습니다. 단, 회사의 영업정책에 따라 서비스를 무상으로 제공할 수 있습니다.\n
+(2) 가맹점은 서비스 기본료와 가맹점이 선택한 서비스에 대한 이용료 등을 당사간 약정에 따라 회사에 납부하여야 하며 제반 수수료는 회사가 정한 방법으로 납부하여야 합니다.\n
+(3) 가맹점이 서비스 기본료 및 제반 서비스 이용료를 연체하는 경우 지체일수에 따라 연 12%의 지연이자가 청구 될 수 있습니다.\n
+제 10 조 (연회비) \n
+연회비는 기본서비스 제공, 서비스 홍보 등 회원관리비용을 충당하기 위하여 부과하는 비용으로 회사는 사전에 청구내용 및 청구금액을 회원에게 통지하도록 합니다. 회사는 서비스 이용요금의 우선하여 연회비를 청구할 수 있으며, 연회비는 서비스 제공 시점을 기준으로 1년 단위로 청구됩니다. 다만 타 법령, 회사에서 정하는 규정 등에서 연회비를 부과하지 않도록 규정한 경우를 제외하고는 연회비는 면제되지 않으므로 회원은 이를 납부해야 합니다.\n
+제 11 조 (회원의 의무) \n
+(1) 회원은 서비스를 이용할 때 다음 각호의 행위를 하지 않아야 합니다.\n 
+1. 다른 회원의 아이디(ID) 및 비밀번호(PASSWORD) 를 부정하게 사용하는 행위 \n
+2. 서비스를 이용하여 얻은 정보를 회원의 개인적인 이용 외에 복사, 가공, 번역, 2차적 저작 등을 통하여 복제, 공연, 방송, 전시, 배포, 출판 등에 사용하거나 제 3자에게 제공하는 행위 \n
+3. 타인의 명예를 손상시키거나 불이익을 주는 행위 \n
+4. 회사의 저작권, 제3자의 저작권 등 기타 권리를 침해하는 행위 \n
+5. 공공질서 및 미풍양속에 위반되는 내용의 정보, 문장, 도형, 음성 등을 타인에게 유포하는 행위 \n
+6. 범죄와 결부된다고 객관적으로 인정되는 행위 \n
+7. 서비스와 관련된 설비의 오동작이나 정보 등의 파괴 및 혼란을 유발시키는 컴퓨터 바이러스 감염자료를 등록 또는 유포하는 행위 \n
+8. 서비스의 안정적 운영을 방해할 수 있는 정보를 전송하거나 수신자의 의사에 반하여 광고성 정보를 전송하는 행위 \n
+9. 기타 관계법령에 위배되는 행위 \n
+(2) 아이디(ID) 와 비밀번호(PASSWORD) 관리에 관한 일체의 책임은 회원 본인에게 있습니다. 회원에게 부여된 아이디(ID) 와 비밀번호(PASSWORD) 를 제3자에게 대여 또는 양도하거나 이와 유사한 행위를 하여서는 안되며, 아이디(ID) 와 비밀번호(PASSWORD) 의 관리소홀, 부정사용에 의하여 발생하는 모든 결과에 대한 책임은 회원 본인에게 있습니다. 회사가 정한 소정의 인증 방식을 이용할 경우, 해당 인증방식의 비밀번호 관리에 관한 일체의 책임은 해당 인증 약관에 준합니다. \n
+(3) 회원은 자신의 아이디(ID) 가 부정하게 사용된 것을 인지한 경우, 즉시 자신의 비밀번호(PASSWORD) 를 변경하고 그 사실을 회사에 통보하여야 합니다. \n
+(4) 회원은 본인의 신상관련 사항이 변경되었을 때는 인터넷을 통하여 수정하거나 유선으로 지체 없이 회사에 통보하여야 합니다. \n
+(5) 회원은 회사의 사전승낙 없이 서비스를 이용하여 영업활동을 할 수 없으며, 그 영업 활동으로 인한 결과에 대하여 회사는 책임을 지지 아니합니다.\n 
+(6) 회원은 이 약관 및 관계법령에서 규정한 사항과 서비스 이용안내 또는 주의사항을 성실히 준수하여야 합니다. \n
+(7) 회원은 내용별로 회사가 서비스 공지사항에 게시하거나 별도로 공지한 이용제한사항을 준수하여야 합니다. \n
+(8) 회원은 회사의 사전동의 없이 서비스의 이용권한, 기타 이용계약상 지위를 타인에게 양도, 증여할 수 없으며 이를 담보로 제공할 수 없습니다. \n
+제 12 조 (계약해지 및 이용제한) \n
+(1) 회원이 서비스 이용계약을 해지하고자 할 경우에는 본인이 회사 홈페이지 또는 회사가 정한 별도의 방법을 이용하여 회사에 해지 신청을 하여야 합니다. 이 경우 관련법 및 개인정보취급방침에 따라 회사가 회원정보를 보유하는 경우를 제외하고는 해지 즉시 회원의 모든 데이터는 삭제됩니다. \n
+(2) 회사는 보안 및 아이디 정책, 서비스의 원활한 제공 등과 같은 이유로 제 8조의 방법으로 고지를 통하여 회원의 아이디(ID) 변경을 요구하거나 변경할 수 있습니다. \n
+(3) 회사는 회원이 다음 각 호에 해당하는 행위를 하였을 경우에는 사전 통지 없이 서비스 이용계약을 해지하거나 서비스의 이용을 중지 시킬 수 있습니다. \n
+1. 아이디(ID) 와 비밀번호(PASSWORD) 등 회원 고유정보를 타인에게 누설하거나 타인의 아이디(ID) 및 비밀번호(PASSWORD) 를 도용한 경우 \n
+2. 서비스 운영을 고의로 방해한 경우 \n
+3. 가입한 성명이 실명이 아닌 경우 \n
+4. 동일 사용자가 다른 ID로 이중 등록을 한 경우 \n
+5. 공공질서 및 미풍양속에 저해되는 내용을 고의로 유포시킨 경우 \n
+6. 회원이 국익 또는 사회적 공익을 저해할 목적으로 서비스이용을 계획 또는 실행하는 경우 \n
+7. 타인의 명예를 손상시키거나 불이익을 주는 행위를 한 경우 \n
+8. 서비스의 안정적 운영을 방해할 목적으로 정보를 전송하거나 광고성 정보를 전송하는 경우 \n
+9. 통신설비의 오동작이나 정보등의 파괴를 유발시키는 컴퓨터 바이러스 프로그램 등을 유포하는 경우 \n
+10. 회사, 다른 회원 또는 제3자의 지적재산권을 침해하는 경우 \n
+11. 회사의 서비스정보를 이용하여 얻은 정보를 회사의 사전 승낙없이 복제 또는 유통시키거나 상업적으로 이용하는 경우 \n
+12. 회원이 게시판 등에 음란물을 게재하거나 음란사이트를 연결(링크) 하는 경우 \n
+13. 스토킹(stalking) 등 다른 이용자를 괴롭히는 행위를 하는 경우 \n
+14. 서비스 이용약관을 포함하여 기타 회사가 정한 이용조건 및 관계법령을 반해 더 이상의 서비스 제공이 어렵다고 판단되는 경우 \n
+(4) 전 3항에 해당하는 행위를 한 회원은 이로 인해 회사 또는 다른 회원에게 발생한 손해를 배상할 책임이 있습니다. \n
+(5) 전 3항의 회사 조치에 대하여 회원은 회사가 정한 절차에 따라 이의신청을 할 수 있고, 이의가 정당하다고 인정하는 경우 회사는 해당 서비스의 이용을 재개합니다. \n
+(6) 가맹점은 계약기간 내의 본 계약을 해지하고자 하는 경우 해지요청일로부터 1개월 이전에 회사에 서면 혹은 회사가 정하는 방법으로 계약해지를 요청하여야 합니다. 계약기간 만료 이전에 계약을 해지하는 경우 회사는 가맹점에게 손해배상을 청구할 수 있습니다.\n
+제 13 조 (게시물 등의 관리) \n
+(1) 회사는 서비스를 제공하는 인터넷사이트의 원활한 관리·감독을 위하여 필요한 경우, 게시되는 내용물에 대해 추가·수정·삭제할 수 있으며, 회원에게 별도 통지 없이 서비스의 개편 및 내용의 추가·수정·삭제를 할 수 있습니다. \n
+(2) 회사는 회원이 게시하거나 전달하는 서비스내의 모든 내용물(회원간 전달 내용 포함) 이 다음의 경우에 해당한다고 판단되는 경우 별도의 사전통지 없이 삭제할 수 있으며, 이에 대해 회사는 어떠한 책임도 지지 않습니다. \n
+1. 회사, 다른 회원 또는 제3자를 비방하거나 중상모략으로 명예를 손상시키는 내용인 경우 \n
+2. 공공질서 및 미풍양속에 위반되는 내용인 경우 \n
+3. 범죄적 행위에 결부된다고 인정되는 내용인 경우 \n
+4. 회사의 저작권, 제3자의 저작권 등 기타 권리를 침해하는 내용인 경우 \n
+5. 회사에서 제공하는 서비스와 관련 없는 내용인 경우 \n
+6. 불필요하거나 승인되지 않은 광고, 판촉 물을 게재하는 경우\n 
+7. 기타 관계 법령 및 회사의 세부지침 등에 위반된다고 판단되는 경우 \n
+(3) 회사는 게시물에 관련된 세부이용지침을 별도로 정하여 시행할 수 있으며, 회원은 그 지침에 따라 각종 게시물(회원간 전달 내용 포함) 을 등록, 삭제 등을 하여야 합니다. \n
+(4) 회원은 개인적인 이익을 위해 회사에 게시물의 추가적 게재 등의 요구를 할 수 없습니다. \n
+제 14 조 (링크사이트에 대한 책임) \n
+(1) 회사는 회원에게 다른 회사의 웹사이트 또는 자료에 대한 링크를 제공할 수 있습니다. 그러나 이 경우 회사는 링크된 외부사이트 및 자료에 대한 아무런 통제권이 없으므로 그로부터 제공받은 서비스나 자료의 유용성에 대해 회사가 아무런 보증도 하지 않고, 그에 대해 책임이 없습니다. \n
+(2) 회원은 링크된 외부사이트의 서비스나 자료를 신뢰함으로써 야기되거나 야기되었다고 주장되는 어떠한 손해나 손실에 대해서도 회사에 책임이 없음을 인정하고 이에 동의합니다. \n
+제 15 조 (면책) \n
+(1) 회사는 다음 각호의 사유로 인하여 회원에게 발생한 손해에 대해서는 책임지지 아니합니다. 다만, 회사가 책임 있다고 판단되는 상당한 인과 관계가 있는 경우에는 그러하지 아니합니다. \n
+1. 통신기기, 회선 및 컴퓨터의 장애나 거래의 폭주 등 부득이한 사정으로 서비스가 제공되지 못하거나 지연된 경우 \n
+2. 회원이 아이디(ID) , 비밀번호(PASSWORD) 등을 본인의 관리소홀로 인해 제3자에게 누출한 경우 \n
+3. 회원의 귀책사유(전산조작이나 업무처리의 오류 등) 로 인한 경우 \n
+4. 기타 천재지변 등의 불가피한 사유로 인한 경우 \n
+(2) 회사는 회원이 서비스를 이용하여 기대하는 수익을 상실한 것에 대하여 책임을 지지 않으며 그 밖에 서비스를 통하여 얻은 자료로 인한 손해 등에 대하여도 책임을 지지 않습니다.\n 
+(3) 회사는 회원이 사이트에 게재한 정보 및 자료의 신뢰도 및 정확성 등 내용에 대하여는 책임을 지지 않습니다. \n
+(4) 회사는 회원 상호간 또는 회원과 제3자 상호간에 서비스를 매개로 발생한 분쟁에 대해서는 개입할 의무가 없으며 이로 인한 손해를 배상할 책임도 없습니다.\n 
+제 16 조 (저작권의 귀속 및 이용제한) \n
+(1) 회사가 작성한 웹화면(문구 및 디자인) 에 관한 저작권, 기타 지적 재산권은 회사에 귀속됩니다. \n
+(2) 회원은 회사가 제공하는 서비스를 이용함으로써 얻은 정보를 회사의 사전 승낙 없이 출판, 복제, 방송 및 기타 방법에 의하여 유포하거나 제3자에게 이용하게 해서는 아니 됩니다.\n 
+(3) 회원이 서비스 내에 게시한 게시물(회원간 전달 포함) 의 저작권은 회원이 소유하며 회사는 서비스 내에 이를 게시할 수 있는 권리를 갖습니다. \n
+(4) 회사는 게시한 회원의 동의 없이 게시물을 다른 목적으로 사용할 수 없습니다.\n 
+(5) 회사는 회원이 해지하거나 적법한 사유로 해지 된 경우 해당 회원이 게시하였던 게시물을 삭제할 수 있습니다.\n 
+제 17 조 (이용약관의 효력 및 변경)\n 
+(1) 이 약관은 서비스를 이용하고자 하는 모든 회원에 대하여 그 효력을 발생합니다. 단, 사이트 별 서비스 이용에 대하여는 해당 사이트의 별도 이용 약관과 함께 그 효력을 발생합니다. \n
+(2) 이 약관의 내용은 특별한 규정이 없는 한 회사가 제공하는 인터넷서비스 화면상에 게시하거나 기타의 방법으로 회원에게 공지함으로써 효력을 발생합니다.\n 
+(3) 회사는 필요하다고 인정되는 사유가 발생할 경우 이 약관의 일부 또는 전부를 변경할 수 있으며, 이 경우 회사는 당해 변경 내용을 제 8조에서 정한 방식으로 공지하고 공지 후 2주 이내 회원의 전자메일 또는 서면에 의한 이의 제기가 없으면 효력이 발생합니다.\n 
+(4) 전항의 방법으로 변경 고지된 약관은 기존의 회원에게도 유효하게 효력이 발생하며, 변경된 약관에 동의하지 않으면 서비스 이용을 중단하고 이용 계약을 해지할 수 있습니다.\n
+
+    </string>
+
+     <!--BlueTooth  -->
+   
+<string name="start_connection">Start Connection</string>
+<string name="stop_connection">Stop Connection</string>
+<string name="unpair_all">Unpair All</string>
+<string name="scanning_bluetooth">Scanning bluetooth&#8230;</string>
+<string name="connecting_bluetooth">Connecting bluetooth&#8230;</string>
+<string name="get_device_info">Get Device Info</string>
+<string name="clear_log">Clear Log</string>
+<string name="print">Print</string>
+<string name="print_bitmap">Print Bitmap</string>
+<string name="bluetooth_2_detected">Bluetooth 2 detected</string>
+<string name="bluetooth_2_connected">Bluetooth 2 connected</string>
+<string name="bluetooth_2_disconnected">Bluetooth 2 disconnected</string>
+<string name="bluetooth_2_scan_timeout">Bluetooth 2 scan timeout</string>
+<string name="bluetooth_2_scan_stopped">Bluetooth 2 scan stopped</string>
+<string name="product_id">Product ID:</string>
+<string name="firmware_version">Firmware Version:</string>
+<string name="bootloader_version">Bootloader Version:</string>
+<string name="hardware_version">Hardware Version:</string>
+<string name="usb">USB:</string>
+<string name="charge">Charge:</string>
+<string name="battery_level">Battery Level:</string>
+<string name="printer_command_success">Printer command success</string>
+<string name="no_paper">No paper</string>
+<string name="wrong_printer_cmd">Wrong printer command</string>
+<string name="request_printer_data">Request printer data</string>
+<string name="request_reprint_data">Request reprint data</string>
+<string name="printer_operation_end">Printer operation end</string>
+<string name="battery_low">배터리 전원 부족, 결제기를 충전해 주세요.</string>
+<string name="battery_critically_low">배터리 전원 부족, 장비의 전원이 꺼집니다.</string>
+<string name="no_device_detected">장비를 연결해 주세요.</string>
+<string name="unknown_error">Unknown error</string>
+<string name="command_not_available">Command not available</string>
+<string name="device_no_response">Device no response</string>
+<string name="device_busy">장치가 사용중입니다.장비를 다시 연결해 주세요.</string>
+<string name="out_of_range">Input out of range.</string>
+<string name="input_invalid">Input invalid.</string>
+<string name="crc_error">CRC Error.</string>
+<string name="invalid_function_in_current_mode">Invalid function in current mode</string>
+<string name="usb_device_not_found">usb device not found</string>
+<string name="usb_device_permission_denied">usb device permission denied</string>
+<string name="msg_processing">처리중 ...</string>
+<string name="msg_is_paying">결제중 ...</string>
+<string name="msg_finishing">종료중 ...</string>
+
+<string name="msg_please_insert_card">카드를 삽입해 주세요.</string>
+<string name="msg_please_swipe_card">마그네틱 신용카드를 읽혀주세요.</string>
+<string name="msg_please_swipe_or_insert_card">IC 신용카드를 읽혀주세요.</string>
+<string name="msg_check_card_result_is_none">checkCardResult is None</string>
+<string name="msg_check_card_result_is_track2_only">checkCardResult is Track 2 only</string>
+<string name="msg_check_card_result_is_no_response">checkCardResult is No response</string>
+<string name="msg_check_card_result_is_not_icc">마그네틱 신용카드를 읽혀주세요.</string>
+<string name="msg_check_card_result_is_bad_swipe">신용카드를 다시 읽혀 주세요.</string>
+<string name="msg_check_card_result_wrong_way">결제방법과 동일하게 취소해 주세요!</string>
+<string name="msg_plz_insert_not_swipe">IC카드 거래요망!</string>
+<!-- <string name="msg_key_binding_success">Key binding success.</string> -->
+<string name="msg_correct_device"> 장치가 확인 되었습니다.</string>
+<string name="msg_incorrect_device">사용장치가 아닙니다.</string>
+<string name="device_not_ready">장비를 연결해 주세요.</string>
+<string name="msg_search_recipt_failed">취소할 내역이 없습니다. 카드를 확인 해 주세요.</string>
+<string name="msg_reconnect_device">장비를 다시 인식해 주세요.</string>
+
+<string name="fail_to_start_bluetooth">Fail to start bluetooth</string>
+<string name="comm_link_uninitialized">Comm link uninitialized</string>
+<string name="bluetooth_already_started">Error: Bluetooth already started</string>
+<string name="cancel">Cancel</string>
+<string name="printer_overheat">Printer overheat</string>
+<string name="bluetooth_4_connected">Bluetooth 4 connected</string>
+<string name="bluetooth_4_disconnected">Bluetooth 4 disconnected</string>
+<string name="bluetooth_4_scan_timeout">Bluetooth 4 scan timeout</string>
+<string name="bluetooth_4_scan_stopped">Bluetooth 4 scan stopped</string>
+<string name="connection">Connection</string>
+<string name="scan_and_connect">Scan and Connect</string>
+<string name="paired_devices">Paired Devices</string>
+<string name="discovered_devices">Discovered Devices</string>
+<string name="btv2_devices">Bluetooth 2 Devices</string>
+<string name="btv4_devices">Bluetooth 4 Devices</string>
+<string name="darkness">Darkness:</string>
+<string name="set_darkness_success">Set darkness success</string>
+<string name="set_darkness_fail">Set darkness fail</string>
+    
+<!-- JTNet EMV -->
+<string name="please_insert_card">IC카드를 삽입해 주세요.</string>
+<string name="please_insert_or_tap_card">Please insert/tap card</string>
+<string name="please_swipe_card">마그네틱 신용카드를 읽혀주세요.</string>
+<string name="please_swipe_or_insert_card">IC 신용카드를 읽혀주세요.</string>
+<string name="please_swipe_or_insert_or_tap_card">Please swipe/insert/tap card</string>
+<string name="please_swipe_or_tap_card">Please swipe/tap card</string>
+<string name="please_tap_card">Please tap card</string>
+<string name="no_card_detected">카드가 감지되지 않습니다. 카드를 다시 삽입하거나 긁어주세요.</string>
+<string name="icc_card_inserted">IC카드가 인식되었습니다.</string>
+<string name="card_inserted">IC카드가 아닙니다.</string>
+<string name="bad_swipe">인식되지 않았습니다. 다시카드를 긁어주세요.</string>
+<string name="card_swiped">Card Swiped: </string>
+<string name="mag_head_fail">마그네틱 해더 실패!</string>
+<string name="card_no_response">카드에서 응답이 없습니다.</string>
+<string name="card_swiped_track2_only">Card Swiped (Track 2 only):\n</string>
+<string name="nfc_track2">Card Tapped (Track 2 Emulation):\n</string>
+<string name="use_icc_card">IC카드를 사용해 주세요.</string>
+<string name="tap_card_detected">Tap card detected</string>
+<string name="format_id">Format ID: </string>
+<string name="masked_pan">Masked PAN: </string>
+<string name="pan">PAN:</string>
+<string name="expiry_date">Expiry Date: </string>
+<string name="cardholder_name">Cardholder Name: </string>
+<string name="ksn">KSN: </string>
+<string name="pin_ksn">PIN KSN:</string>
+<string name="track_ksn">Track KSN:</string>
+<string name="emv_ksn">EMV KSN:</string>
+<string name="epb">EPB:</string>
+<string name="uid">UID:</string>
+<string name="csn">CSN:</string>
+<string name="vendor_id">Vendor ID:</string>
+<string name="terminal_setting_version">Terminal Setting Version:</string>
+<string name="device_setting_version">Device Setting Version:</string>
+<string name="service_code">Service Code: </string>
+<string name="track_1_length">Track 1 Length: </string>
+<string name="track_2_length">Track 2 Length: </string>
+<string name="track_3_length">Track 3 Length: </string>
+<string name="encrypted_tracks">Encrypted Tracks: </string>
+<string name="encrypted_track_1">Encrypted Track 1: </string>
+<string name="encrypted_track_2">Encrypted Track 2: </string>
+<string name="encrypted_track_3">Encrypted Track 3: </string>
+<string name="partial_track">Partial Track: </string>
+<string name="track_encoding">Track Encoding:</string>
+<string name="final_message">Final Message:</string>
+<string name="random_number">Random Number:</string>
+<string name="encrypted_working_key">Encrypted Working Key:</string>
+<string name="card_data">Card Data: </string>
+<string name="start_emv_fail">Start EMV failed</string>
+<string name="start_emv_success">Start EMV success</string>
+<string name="app_version">App Version: </string>
+<string name="battery_percentage">Battery Percentage:</string>
+<string name="supported_track">Supported Track: </string>
+<string name="track_1_supported">Track 1 Supported: </string>
+<string name="track_2_supported">Track 2 Supported: </string>
+<string name="track_3_supported">Track 3 Supported: </string>
+<string name="unknown">Unknown</string>
+<string name="set_amount">Set Amount</string>
+<string name="enter_pin">Please enter PIN</string>
+<string name="request_check_online_connectivity">Requested to check online connectivity</string>
+<string name="request_online_process">Online process requested</string>
+<string name="select_online_response">Please select an online response.</string>
+<string name="replied_connected">Replied connected.</string>
+<string name="replied_success">Replied success.</string>
+<string name="replied_failed">Replied failed.</string>
+<string name="replied">Replied:</string>
+<string name="batch_data">Batch Data:\n</string>
+<string name="transaction_log">Transaction Log:\n</string>
+<string name="load_log">Load Log:\n</string>
+<string name="reversal_data">Reversal Data:\n</string>
+<string name="please_select_app">Please select app</string>
+<string name="transaction_result">카드확인</string>
+<string name="transaction_approved">정상확인</string>
+<string name="transaction_terminated">종료</string>
+<string name="transaction_declined">거절</string>
+<string name="transaction_cancel">취소</string>
+<string name="transaction_capk_fail">실패 (CAPK fail)</string>
+<string name="transaction_not_icc">실패 (Not ICC card)</string>
+<string name="transaction_card_blocked">사용할 수 없는 카드 입니다.(card block)</string>
+<string name="transaction_device_error">리더기 이상입니다.</string>
+<string name="icc_card_removed">IC카드가 제거 되었습니다.</string>
+<string name="tlv_list">TLV List:\n</string>
+<string name="advice_process">Advice Process.</string>
+<string name="call_your_bank">해당은행으로 확인해 주십시요.</string>
+<string name="request_terminal_time">Request Terminal Time. Replied </string>
+<string name="confirm_amount">금액확인</string> 
+<string name="amount">금액</string>
+<string name="amount_ok">Amount OK?</string>
+<string name="approved">정상확인</string>
+<string name="cancel_or_enter">계속진행하시겠습니까?</string>
+<string name="card_error">카드 에러 입니다.</string>
+<string name="declined">거절 되었습니다.</string>
+<string name="enter_amount">결제금액을 입력해 주세요.</string>
+<string name="incorrect_pin">비밀번호가 일치하지 않습니다.</string>
+<string name="insert_card">IC카드를 삽입해 주세요.</string>
+<string name="not_accepted">승인되지 않았습니다.</string>
+<string name="pin_ok">비밀번호 확인 되었습니다.</string>
+<string name="wait">통신중&#8230;</string>
+<string name="processing_error">Processing error</string>
+<string name="remove_card">카드를 제거 해 주세요.</string>
+<string name="use_chip_reader">IC우선결제로 거래하셔야 합니다.</string>
+<string name="use_mag_stripe">MS로 거래하셔야 합니다.</string>
+<string name="try_again">다시 시도해 주세요.</string>
+<string name="refer_payment_device">Please refer to your payment device</string>
+<string name="try_another_interface">Please try another interface</string>
+<string name="online_required">통신을 위한 연결이 필요합니다.</string>
+<string name="processing">진행중&#8230;</string>
+<string name="welcome">Welcome</string>
+<string name="present_one_card">Please present only one card</string>
+<string name="capk_failed">CAPK loading failed</string>
+<string name="last_pin_try">Last PIN try</string>
+<string name="insert_or_tap_card">Please insert or tap card</string>
+<string name="select_account">Please select account</string>
+<string name="approved_please_sign">Approved. Please sign</string>
+<string name="tap_card_again">Please tap card again</string>
+<string name="authorising">Authorising&#8230;</string>
+<string name="insert_or_swipe_card_or_tap_another_card">IC칩에 문제가 있습니다. 마그네틱으로 카드를 긁어주세요!</string>
+<string name="insert_or_swipe_card">Please insert or swipe card</string>
+<string name="multiple_cards_detected">Multiple card detected</string>
+<string name="device_plugged">장치가 연결 되었습니다.</string>
+<string name="device_unplugged">장치가 제거 되었습니다.</string>
+<string name="plz_connect_device">Please connect device.</string>
+<string name="device_reset">장치를 다시연결해 주세요.</string>
+<string name="invalid_format">Input invalid format.</string>
+<string name="zero_values">Input are zero values.</string>
+<string name="cashback_not_supported">Cashback not supported.</string>
+<string name="comm_error">Communication Error.</string>
+<string name="volume_warning_not_accepted">Volume warning not accepted</string>
+<string name="fail_to_start_audio">Fail to start audio</string>
+<string name="device_off">Device powered off.</string>
+<string name="get_info">Get Device Info</string>
+<string name="check_card">Start</string>
+<string name="start_emv">Start EMV</string>
+<string name="pin">PIN</string>
+<string name="cashback_amount">Cashback</string>
+<string name="confirm">Confirm</string>
+<string name="bypass">Bypass</string>
+<string name="decline">Decline</string>
+<string name="getting_info">Getting device info&#8230;</string>
+<string name="starting">Starting&#8230;</string>
+<string name="power_on_icc">Power on ICC</string>
+<string name="power_off_icc">Power off ICC</string>
+<string name="send_apdu">Send APDU</string>
+<string name="sending_apdu">Sending APDU</string>
+<string name="power_on_icc_success">Power on ICC Success</string>
+<string name="power_on_icc_failed">Power on ICC Failed</string>
+<string name="power_off_icc_success">Power off ICC Success</string>
+<string name="power_off_icc_failed">Power off ICC Failed</string>
+<string name="apdu_result">APDU Result:</string>
+<string name="atr">ATR:</string>
+<string name="apdu_failed">APDU Failed</string>
+<string name="sending">Sending:</string>
+<string name="atr_length">ATR Length:</string>
+<string name="get_ksn">Get KSN</string>
+<string name="getting_ksn">Getting KSN&#8230;</string>
+<string name="powering_on_icc">Powering on ICC&#8230;</string>
+<string name="powering_off_icc">Powering off ICC&#8230;</string>
+<string name="card_not_supported">Card not support</string>
+<string name="missing_mandatory_data">Missing mandatory data</string>
+<string name="no_emv_apps">No EMV apps</string>
+<string name="invalid_icc_data">Invalid ICC data</string>
+<string name="condition_not_satisfied">Condition of use not satisfied</string>
+<string name="application_blocked">Application blocked</string>
+<string name="power_on_nfc">Power on NFC</string>
+<string name="power_off_nfc">Power off NFC</string>
+<string name="data_exchange">Data exchange</string>
+<string name="power_on_nfc_success">Power on NFC Success</string>
+<string name="power_on_nfc_failed">Power on NFC Failed</string>
+<string name="power_off_nfc_success">Power off NFC Success</string>
+<string name="power_off_nfc_failed">Power off NFC Failed</string>
+<string name="data_received">Data received:</string>
+<string name="data_length">Data length:</string>
+<string name="data_exchange_failed">Data exchange failed</string>
+<string name="response">Response:</string>
+<string name="get_emv_card_data">Get EMV Data</string>
+<string name="emv_card_data_result">EMV card data result:</string>
+<string name="emv_card_data_failed">Get EMV card data failed</string>
+<string name="emv_card_balance_result">EMV card balance result:</string>
+<string name="emv_card_balance_failed">Get EMV card balance failed</string>
+<string name="getting_card_data">Getting EMV card data&#8230;</string>
+<string name="cancel_check_card">Cancel Check Card</string>
+<string name="nfc_not_yet_power_on">NFC not yet power on</string>
+<string name="nfc_no_response">NFC no response</string>
+<string name="cancel_check_card_success">Cancel check card success</string>
+<string name="cancel_check_card_fail">Cancel check card fail</string>
+<string name="encrypted_card_data">Encrypted Card Data:</string>
+<string name="encrypted_card_data_random_number">Encrypted Card Data Random Number:</string>
+<string name="encrypted_pan">Encrypted PAN:</string>
+<string name="encrypted_pan_random_number">Encrypted PAN Random Number:</string>
+<string name="pan_sequence_number">PAN Sequence Number:</string>
+<string name="mac_data">MAC Data:</string>
+<string name="mac_random_number">MAC Random Number:</string>
+<string name="success">Success</string>
+<string name="fail">Fail</string>
+<string name="verify_id">Please Verfiy Cardholder ID</string>
+<string name="receipt_data">Receipt Data:</string>
+<string name="cardholder_certificate">Cardholder Certificate:</string>
+<string name="certificate_type">Certificate Type:</string>
+<string name="exchanging_apdu">Exchanging APDU&#8230;</string>
+<string name="auto_config">Auto Config</string>
+<string name="auto_configuring">Auto Configuring&#8230;</string>
+<string name="auto_config_completed">Auto config completed</string>
+<string name="settings">Settings:</string>
+<string name="default_settings">Default settings</string>
+<string name="card_number">Card Number:</string>
+<string name="settings_written_to_external_storage">Settings written to external storage</string>
+<string name="auto_config_error_phone_not_supported">Auto config error: phone not supported</string>
+<string name="auto_config_error_interrupted">Auto config error: interrupted</string>
+<string name="canceling_auto_config">Canceling auto config&#8230;</string>
+<string name="setting_config">Setting config&#8230;</string>
+<string name="swipe">Swipe</string>
+<string name="insert">Insert</string>
+<string name="tap">Tap</string>
+<string name="swipe_or_insert">Swipe or Insert</string>
+<string name="select_mode">Select Mode</string>
+<string name="get_capk_list">Get CAPK List</string>
+<string name="get_capk_detail">Get CAPK Detail</string>
+<string name="find_capk">Find CAPK</string>
+<string name="update_capk">Update CAPK</string>
+<string name="get_emv_report_list">Get EMV Report List</string>
+<string name="get_emv_report">Get EMV Report</string>
+<string name="capk">CAPK:</string>
+<string name="location">Location:</string>
+<string name="rid">RID:</string>
+<string name="index">Index:</string>
+<string name="exponent">Exponent:</string>
+<string name="modulus">Modulus:</string>
+<string name="checksum">Checksum:</string>
+<string name="size">Size:</string>
+<string name="update_capk_success">Update CAPK success</string>
+<string name="update_capk_fail">Update CAPK fail</string>
+<string name="emv_report_list">EMV report list:</string>
+<string name="emv_report">EMV report: </string>
+<string name="ic_payment_not_ready">IC리더기가 준비되지 않았습니다.</string>
+<string name="ic_payment_info_title">IC상태정보</string>
+
+
+
+<string name="emv_fallback_report">메시지</string>
+<string name="popup_title_integrity_log">Integrity Log</string>
+<string name="msg_device_is_rooted">루팅이 감지되어 앱을 실행 할 수 없습니다. </string>
+<string name="msg_no_antivirus">폰에 백신이 설치되어 있지 않습니다. V3 또는 avast등의 백신을 설치하고 다시 실행해 주세요.</string>
+<string name="btnKeyBinding">Key 연결</string>
+<string name="btnIntegrityCheck">무결성 검증</string>
+<string name="btnIntegrityLog">무결성 확인</string>
+<string name="btnReaderConfig">통신이상검사</string>
+
+<string name="btnReadCard">Read</string>
+<string name="msgIntegrityCheckFail">무결성 검증 실패</string>
+
+<string name="txtSignTitle">서명</string>
+<string name="txtProgramTitle">DAP12PAYP000</string>
+
+<string name="emv_integrity_check_success">무결성 검증 성공</string>
+<string name="emv_integrity_check_fail">무결성 검증 실패</string>
+<string name="btn_delete_company">가맹점 삭제</string>
+<string name="title_input_email_to_reset_password"> 가입하신 ID(email)를 입력해주세요.</string>
+<string name="title_reset_password">새로운 비밀번호 전송</string>
+<string name="btn_reset">비밀번호 발급</string>
+<string name="email_invalid">이메일 형식이 아닙니다.</string>
+<string name="already_sent_new_password">새로운 비밀번호를 전송하였습니다!</string>
+<string name="new_password_sent_failed">새로운 비밀번호 전송에 실패하였습니다!</string>
+<string name="need_device">장비를 연결해 주세요!</string>
+<string name="msg_keybinding_during">단말기 절대 분리하지 마세요.</string>
+<string name="msg_keybiding_success">단말기 장비인증 완료.</string>
+<string name="msg_keybiding_error">단말기 장비인증이 실패하였습니다.</string>
+<string name="msg_remove_company_success">등록된 가맹점을 삭제 하였습니다.</string>
+<string name="msg_remove_company_unsuccess">가맹점 삭제 실패!</string>
+    <string name="msg_config_device_doing">통신을 검사중 </string>
+<string name="msg_config_device_success">통신완료.홈으로 돌아가주세요.</string>
+<string name="msg_config_device_failed">통신실패.</string>
+<string name="msg_config_device_ask">통신이상 검사하시겠습니까?</string>
+<string name="msg_phone_num_size_invalid">11자리 핸드폰 번호를 입력 해야 합니다.</string>
+<string name="msg_confirm_code_incorrect">인증번호가 틀립니다.</string>
+<string name="msg_need_register_company_user_first">Need register company user first.</string>
+<string name="msg_icc_broken">IC칩 손상. 마그네틱 거래해 주세요.</string>
+<string name="device_info">Device Info</string>
+<string name="slide_to_right_to_show_menu">SLIDE TO RIGHT TO SHOW MENU</string>
+<string name="_1_open_ter">1. Open Ter.</string>
+<string name="_2_get_cert">2. get Cert</string>
+<string name="_3_key_download">3.Key Download</string>
+<string name="get_pub_key">get Pub. Key</string>
+<string name="connecting_bluetooth_2">Connecting Bluetooth 2&#8230;</string>
+<string name="connecting_bluetooth_4">Connecting Bluetooth 4&#8230;</string>
+<string name="bluetooth_connected">MINIBT 연결되었습니다.</string>
+<string name="bluetooth_disconnected">MINIBT 연결끊겼습니다.</string>
+    <string name="bluetooth_scan_stopped">Bluetooth scan stopped</string>
+    <string name="bluetooth_not_configured">MINIBT 장비 연결이 안되어 있습니다. \n 프로필 > 일반설정 > MINI BT 설정을 해주세요.</string>
+    <string name="need_restart_app">종료 후 앱을 다시 실행 해 주세요.</string>
+    <string name="fail_to_start_bluetooth_v2">Fail to start bluetooth 2.0</string>
+    <string name="fail_to_start_bluetooth_v4">Fail to start bluetooth 4.0</string>
+
+    <string name="register_van_download">순서 2.개시 거래 요청</string>
+    <string name="register_van_save_company">순서 3.단말기 등록</string>
+    <string name="register_van_bt_on_off">순서 1. 장비선택</string>
+    <string name="msg_cert_title">앱무결성에 문제가 있습니다.</string>
+    <string name="msg_cert_content">앱을 삭제후 플레이스토어에서 재 설치 해 주십시요.</string>
+    <string name="msg_connect_bt_eror">블루투스 연결 실패! 다시 시도해 주세요.</string>
+
+    <string name="msg_network_result_no_eot">미완료 거래! 다시 시도해 주세요.(EOT)</string>
+    <string name="msg_network_result_socket_error">통신이상 에러! 다시시도해 주세요.(Socket error)</string>
+    <string name="msg_network_result_dle">통신이상 에러! 다시시도해 주세요.(DLE)</string>
+    <string name="msg_network_result_success">Van return success</string>
+    <string name="reader_type_bluetooth">MINIBT</string>
+    <string name="reader_type_earjack">MINI2</string>
+    <string name="bt_device_prefix">DAB</string>
+    <string name="msg_wait_for_bt_turn_on">Please turn on bluetooth device</string>
+    <string name="msg_not_login_yet">로그인 하세요</string>
+    <string name="msg_have_to_connect_adio_or_turn_on_bluetooth">지금 장비를 연결해 주세요.</string>
+    <string name="msg_unavailable_function">서비스 준비 중 입니다.</string>
+    <string name="msg_notEarJack_function">MINI2에서 지원되는 기능입니다.</string>
+    <string name="msg_check_emv_card_is_fail">취소할 내역이 없습니다. 카드를 확인해 주세요.</string>
+    <string name="msg_key_updated_title">키교환이 필요합니다. \n 사업자정보 -> 키연결 실행해 주세요.</string>
+    <string name="msg_need_integrity_check_device">무결성 검증을 실행 해 주세요.</string>
+    <string name="msg_check_card_return_wrong_data">다시 시도해 주십시요.</string>
+    <string name="msg_wait_finish_pre_cmd">장비가 동작중입니다.</string>
+    <string name="msg_check_device_config">설정된 장비가 아닙니다. 장비를 확인해 주세요.</string>
+    <string name="msg_van_info_required">Please check Ip address, port</string>
+    <string name="msg_company_no_machine_code_len">입력이 올바르지 않습니다. 다시 확인해 주세요.</string>
+
+    <string name="title_cancel_list_dialog">승인취소 리스트</string>
+    <string name="msg_pay_step_1_reading_card"> IC 카드를 읽는 중...</string>
+    <string name="msg_pay_step_1_cash">처리중...</string>
+    <string name="msg_pay_step_2_make_packet"> 접속중...</string>
+    <string name="msg_pay_step_3_ready_send_van"> 처리중...</string>
+    <string name="msg_pay_step_4_send_van"> 송수신중...</string>
+    <string name="msg_pay_step_5_finishing"> 종료중...</string>
+    <string name="msg_select_at_least_one_item">하나의 취소 항목을 선택하셔야 합니다.</string>
+
+    <string name="msg_payment_step_1_1_ms_waiting">MS 신용카드를 읽혀주세요</string>
+    <string name="msg_payment_step_1_2_ic_waiting">IC 신용카드를 읽혀주세요</string>
+    <string name="msg_payment_step_2_ic_reading">IC 카드를 읽는 중...</string>
+    <string name="msg_payment_step_3_comnunicating_server">송·수신중...</string>
+    <string name="msg_payment_step_4_closing">종료중...</string>
+
+    <string name="vandl_dialog_btn_cancel">취소</string>
+    <string name="vandl_dialog_btn_next">다음</string>
+    <string name="vandl_dialog_btn_back">뒤로</string>
+    <string name="vandl_dialog_btn_finish">완료</string>
+
+    <string name="vandl1_dialog_step">STEP1</string>
+    <string name="vandl1_dialog_title">장치 선택 </string>
+    <string name="vandl1_dialog_title_sub">장치를 선택해 주시기 바랍니다.</string>
+    <string name="vandl1_dialog_content">장비를 연결해주세요</string>
+
+    <string name="vandl2_dialog_step">STEP2</string>
+    <string name="vandl2_dialog_title">사업자 번호 입력</string>
+    <string name="vandl2_dialog_title_sub">사업자 등록번호 10자리를 입력해 주세요</string>
+    <string name="vandl2_dialog_content">사업자 번호를 입력해 주세요</string>
+
+    <string name="vandl3_dialog_step">STEP3</string>
+    <string name="vandl3_dialog_title">단말기 번호 입력</string>
+    <string name="vandl3_dialog_title_sub">단말기 번호 8자리를 입력해 주세요</string>
+    <string name="vandl3_dialog_content">단말기 번호를 입력해 주세요</string>
+
+    <string name="vandl4_dialog_title_1">Van 사업자</string>
+    <string name="vandl4_dialog_title_2">사업자 번호</string>
+    <string name="vandl4_dialog_title_3">가맹점 명</string>
+    <string name="vandl4_dialog_title_4">가맹점 주소</string>
+    <string name="vandl4_dialog_title_5">가맹점 전화번호</string>
+    <string name="vandl4_dialog_title_6">대리점 전화번호</string>
+    <string name="vandl4_dialog_title_7">Van 전화번호</string>
+    <string name="vandl4_dialog_content">주의! \n장비의 전원을 끄거나 분리하지 마세요.</string>
+    <string name="vandl4_dialog_step">FINAL</string>
+    <string name="vandl4_dialog_title">단말기 정보확인</string>
+
+    <string name="msg_vandl_dialog_ask_connect">장비를 연결해주세요</string>
+    <string name="msg_vandl_dialog_connected">장비가 연결 되었습니다</string>
+    <string name="msg_vandl_dialog_wrong_model">선택된 장비가 아닙니다. 다시 연결해 주세요.</string>
+    <string name="msg_vandl_dialog_machine_code_incorrect_length">Incorrect lenght. Have to be 8 digits</string>
+    <string name="msg_vandl_dialog_ask_touch_to_connect_again"> 블루투스 MINIBT 를 다시 선택헤 주세요.</string>
+    <string name="machine_division_general">일반 사업자</string>
+    <string name="machine_division_multiple">다중 사업자</string>
+    <string name="machine_division_multiple_explain">해당 사업자는 대리점에 문의 해 주세요.</string>
+    <string name="btn_auto_config">통신이상 검사</string>
+    <string name="msg_need_to_download_company_first">가맹점 개통이 필요합니다</string>
+
+</resources>

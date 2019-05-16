@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/release/x86_64",
+  "command": "/Users/jaewooklee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/jaewooklee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/jaewooklee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot  -Ddaou_sign_jni_EXPORTS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O2 -DNDEBUG  -fPIC   -o CMakeFiles/daou-sign-jni.dir/daou-sign-jni.cpp.o -c /Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/src/main/jni/daou-sign-jni.cpp",
+  "file": "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/src/main/jni/daou-sign-jni.cpp"
+}
+]

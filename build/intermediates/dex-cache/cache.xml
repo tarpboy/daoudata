@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/jsoup-1.8.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3d57e95c0f150b885ccdbda7a12bef353fd31d02">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/jsoup-1.8.1_5e9d48cd0b7031037cf006c19648dc646aa14a77/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/9a4c9a147711f1874a59ebfe3361b91f5a9351df/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9427b484610f3b640905a67fe2193c9bff2382d9">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d5b08c662727e031228ee0972931e029b591f925/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/5cea6da449a85966afcd105ce71559d5ebf9510b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_59e6e328d0c4f27e09a474bda662cf14ae31775c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/1.7.1/697e3a1fa094a983cd12f7f6f61abf9c6ea52e2/gson-1.7.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0697e3a1fa094a983cd12f7f6f61abf9c6ea52e2">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/gson-1.7.1_1e15cc67545301b953845247039a5b3573c97e14/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/btsdk.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8f6b84f6fbcfbf895952b8e0c007ec5d0fce9bc9">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/btsdk_6126373221f830cc0fdffc7ca316010a5b583874/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/5834aa642621f55c454baa7f70fce837b47d9642/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1b29ec22de225601d525a98fca254dd7aff4fbb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/18c042e7cf2337039a38a17ee5f6bf4a26402170/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_af514cd093b6e04ddea3155c7abae30565b1a15d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/8d01a5edf55f0e47c9522cda22dba163a7699a12/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d9cbc748ccb643e511a9341f33b1d34f6bb76e83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/emv-paycard-library-2.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5252a95fc8f6a47fb4f444ff33eece7ee302452e">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/emv-paycard-library-2.1.1_4ba7c73289d2d28e3c3810896750bae1312aa81a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/emvReaderService/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21b10ff6c510c08965b99be1b007188bfd0ebb0b">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/4/classes_d25c44e9fcf193b4613273feab634726f1d4578c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/df998f88d69dc061e772a5fe9d3752649008fb0e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d5564cb0e49ec01250c5dca50d6b9e990de17c4f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/jxl.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7faf62e0697f7a88954622dfe8c8de33ed142ac7">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/jxl_39d2e212041201a35b4ffa840b1312185a6942f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4d4f49e27545100f9da14cb5985b4c15dfcae8aa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c396c8392466f0abb86530113ab72e9cf56c62e7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/zixng.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="96b67e377ff4637ff1fa3bbe9ad7183773935f39">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/zixng_8d35f0813ea94895804c087408abfa1fd26be226/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4d4f49e27545100f9da14cb5985b4c15dfcae8aa/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_28dceb37dd23bd2a49959c02089ece37d9afcc66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/sqliteassethelper-2.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5f02e4a4d65ec0fbb339f2e4228723d1540bb9f">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/sqliteassethelper-2.0.1_4d6565bb4d44b8914a112a3374d239d7e37e90b8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/5cef73b37b2b2b7853cc70c9d601faf75a9be05e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_56e06f9d1d97cecd66d21ee433d9993abf997e97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/df998f88d69dc061e772a5fe9d3752649008fb0e/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_8bdf8a68ce3a24700708cfd258959bf0b8dfd6de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/libRefreshListview/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="348d75431a50e1c13cc056a6019ca6b0953a60ab">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/4/classes_dafbd79625c6ba93ba89fba03e8f2a33eec6efda/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4f00156b788af614f43d8b25ec39968d31d9a679/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_73bf0a4ec33a4e2c2d23878ed5ecb74a0883bf56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/bit-lib4j-1.4.12.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="43a820719667da9562d3db3a992fed313ab0eee8">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/bit-lib4j-1.4.12_365acc277a417e0ed9f6f8fb71432babff00615d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/libDaumMapAndroid.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="91c9de067eff6b3e026d21934e91ec45db8cd277">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/libDaumMapAndroid_b641e3eece51781f6ef265b991d2e72461cce533/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4f5dc9053b9bac45b9236db4781fb7f972acff11/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4b17463c814bdc562fb0392fa3494063623a0904">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8d4bbdd3ab9cb86a6a27fbcfba442b8730532063/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/commons-validator-1.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26b98c21975c5caf6bf34bacdeb7183be7a65970">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/commons-validator-1.5.0_fa5eefcb17fb070a556abb78a86921b2448e2825/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/cb25202628ec8c08c2420908600c3e4c68b0a119/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="75b1f366ff0bbc78f8b1f7cf0dc82e7c53afef6a">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_8357e3101dad15a91e7441336a0ce3804b5d429f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/e6b2d9e74c7e52b427ecc16aebd55995fc2d654b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25a69d2850afdb59d7714d3cf1c259db97e3bfa1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/cb25202628ec8c08c2420908600c3e4c68b0a119/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f2e3b9bc1ec25f652e8007ce7774c991e38f6a00">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_09ab6256d24ca11cb1678b5d33c0f6c1509bb019/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/62d7b4d04ebcd1d5cd42fe6fbb22797d5c71349b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2800c24912586b39df0431fb3437a74f9a1bb4c0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/252169e91f3c73b4b7042ba65d8ed776721c9c4c/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_31806dfc816aac0e39ee3f71ee275cfac0fd3b3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/023d8812e7b37797250c8bcb227f6d025f157611/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_504dc040faee4528724b7c4df9b2bd588f588e44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/AuthComm1.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bccc31764ae6e8b85c1dab7eb39e6878484dde6f">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/AuthComm1.5_245edbb3115f8eed637a7d8bdedf987810a95c6a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4be1b4798169ba3f37f89a7a70b01c49a421a370/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_d791f0fa0229eabde54a92e3141471735a966f0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Downloads/adt-bundle-mac-x86_64-20140702/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.0/support-annotations-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.0_c10d947a881216bd51a99ded838fbefb04dc0f62/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/simplyprintapi-android-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a95adec43ac975d52315960e66df943c5b27e5f1">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/simplyprintapi-android-1.3.0_82b10cb5e0f7f1bc995a67065b76ab6f741db0c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4be1b4798169ba3f37f89a7a70b01c49a421a370/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_25c968ab69de5315c9726a27f655237f27c67e86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/0c50194a019830fddc60b1a20fb8fb2cdf024dcb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_23a68fc75cb609d1b4f4abb69a0525b53d5bd371/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/e6b2d9e74c7e52b427ecc16aebd55995fc2d654b/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_5cd5206fcfd602f1fe36050ca6806f7a5a4c8c10/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/.android/build-cache/4630651b9b83f1798616fdf601deb6505a9715ab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/10/classes_842271680972875b3005a10bbf5222c6595a5a83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/slidingMenu/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f5540cc591d96bea925ca7747e89f12fd9c13f13">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/4/classes_676c8798ba628d3678110dfe058900c8b76da7c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/zbar.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7bbdf7ba57a8a157c0cad51e455609c70887812e">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/zbar_ebb01b8d21496199ef1022790155a3f4df3a9760/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/ksoap2-android-assembly-3.1.1-jar-with-dependencies.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ddcd1698b4bc242e26bfd99e3779688ab311b918">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/ksoap2-android-assembly-3.1.1-jar-with-dependencies_dfd73707c6c45eea6db585f0c787ed4e52b1c331/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/libs/Sewoo_Android_1054.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ad62a8df10c102c7ad31775bda8b9f5c57e1c5c">
+        <dex dex="/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/debug/folders/1000/2/Sewoo_Android_1054_fc90f6d35743910ae7dbfb321965cbc99928a865/classes.dex" />
+    </item>
+
+</items>

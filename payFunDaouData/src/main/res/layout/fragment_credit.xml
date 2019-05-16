@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="200"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/include1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/credit_card_top" />
+            </LinearLayout>
+			<TextView
+                    android:id="@+id/tvPaymentStatus"
+                    style="@style/viewSpace"
+                    android:paddingLeft="10dp"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:layout_weight="50"
+                    android:layout_width="match_parent"
+                    android:textSize="9pt" 
+                    />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="700"
+                android:orientation="vertical" >/
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="306" />
+
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="306" />
+
+                <LinearLayout
+                    android:id="@+id/loCredit2"
+                    style="@style/linercash"
+                    android:layout_height="0dp"
+                    android:layout_weight="1228"
+                    android:background="@drawable/txt_input_amount"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/edCreditTAmount"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:cursorVisible="false"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical|right"
+                        android:inputType="numberDecimal"
+
+                        android:maxLength="11"
+                        android:paddingRight="3dp"
+                        android:text=""
+                        android:textSize="15pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical|right"
+                        android:text="원"
+                        android:textSize="12pt" />
+                </LinearLayout>
+
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="306" />
+
+                <LinearLayout
+                    android:id="@+id/loCredit3"
+                    style="@style/linercash"
+                    android:layout_height="0dp"
+                    android:layout_weight="1500"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="2"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text="할부" />
+
+                        <Spinner
+                            android:id="@+id/edCreditMonth"
+                            style="@style/editcreditCardReding"
+                            android:layout_marginLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:paddingBottom="5dp"
+                            android:paddingTop="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical"
+                            android:text=" 개월" />
+
+                        <View
+                            android:layout_width="0dp"
+                            android:layout_height="1dp"
+                            android:layout_weight="1" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvPercent"
+                        style="@style/editcreditCardReding"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:gravity="right"
+                        android:paddingBottom="5dp"
+                        android:paddingTop="5dp"
+                        android:visibility="gone"
+                        android:text="0%" />
+
+                    <Button
+                        android:id="@+id/btnMember"
+                        style="@style/buttoncash"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_member_apply_selector"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="회원적용"
+                        android:visibility="visible" />
+
+                    <Button
+                        android:id="@+id/btnCoupon"
+                        style="@style/buttoncash"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/button_apply_coupon_selector"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="쿠폰적용" />
+                </LinearLayout>
+
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="200" />
+				
+                
+				<LinearLayout
+                    style="@style/linercash"
+                    android:layout_height="0dp"
+                    android:layout_weight="1228"
+                    android:orientation="horizontal" >
+                    <TextView
+                    android:id="@+id/viewSignTitle"
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/txtSignTitle"
+                    android:gravity="bottom|left"
+                    android:paddingLeft="10dp"
+                    />
+                    <TextView
+                    android:id="@+id/tvSWModelName"
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text="@string/txtProgramTitle"
+                    android:gravity="bottom|right"
+                    android:paddingRight="10dp"
+                    />
+                    </LinearLayout>
+			<LinearLayout
+			    
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_gravity="top"
+			    android:layout_weight="6139"
+			    android:orientation="vertical" >
+		<LinearLayout
+			    android:id="@+id/viewSign"
+			    android:layout_width="match_parent"
+			    android:layout_height="match_parent"
+			    android:layout_margin="10dp"
+			    android:background="@drawable/txt_black_shape"
+			    android:gravity="top|center"
+			    android:orientation="vertical" >
+
+            </LinearLayout>
+            </LinearLayout>
+            
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_height="0dp"
+                    android:layout_weight="1389"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        style="@style/buttoncash"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4444"
+                        android:textSize="10pt"
+                        android:background="@drawable/button_cancel_selector"
+                        android:text="취소" />
+
+                    <View
+                        style="@style/viewSpace"
+                        android:layout_weight="611" />
+
+                    <Button
+                        android:id="@+id/btnConfirm"
+                        style="@style/buttoncash"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4444"
+                        android:textSize="10pt"
+                        android:background="@drawable/button_confirm_selector"
+                        android:text="확인" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/vSignBottom"
+                    style="@style/viewSpace"
+                    android:layout_weight="417" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

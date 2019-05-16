@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/receipt_root"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/recipt_popup_while_shape"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin" >
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/radSms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="SMS"
+                android:textColor="#6c5241"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/radMms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:text="MMS"
+                android:textColor="#6c5241"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/txtSMS"
+            style="@style/txt"
+            android:hint="휴대폰번호를 입력해주세요"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnSMS"
+            style="@style/btnPopupReceipt"
+            android:layout_width="match_parent"
+            android:text="SMS 전송" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#b8b8b8" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            style="@style/txt"
+            android:layout_width="wrap_content"
+            android:hint="E-MAIL 주소를 입력해주세요"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btnEmail"
+            style="@style/btnPopupReceipt"
+            android:layout_width="match_parent"
+            android:text="EMAIL 전송" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#b8b8b8" />
+
+        <Button
+            android:id="@+id/btnPrint"
+            style="@style/btnPopupReceipt"
+            android:layout_width="match_parent"
+            android:text="PRINT(인쇄)" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+#Wed Jan 03 00:26:35 KST 2018
+base.0=/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex

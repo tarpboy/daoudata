@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2250"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleConfirmCode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="+82 10-4528-4628로 전송받은 4자리 인증번호를 입력해주세요." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1000"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7150"
+            android:background="@drawable/txt_while_user_shape"
+            android:orientation="horizontal"
+            android:paddingBottom="0dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="0dp" >
+
+            <EditText
+                android:id="@+id/txtCodeConfirm"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:gravity="left|center_vertical"
+                android:hint="Code"
+                android:inputType="number"
+                android:maxLength="8" />
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2850"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp" >
+
+            <Button
+                android:id="@+id/btnCodeConfirm"
+                style="@style/buttonbottomchart"
+                android:background="@drawable/background_btn_chart_daily_s"
+                android:paddingBottom="0dp"
+                android:paddingTop="0dp"
+                android:text="다음"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1667"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/titleCountConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="인증번호가 58초 이내에 도착합니다." />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1300"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnBackToTop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_confirm_selector"
+            android:paddingBottom="0dp"
+            android:paddingTop="0dp"
+            android:text="처음으로 돌아가기"
+            android:textColor="#ffffff"
+            android:textSize="8pt"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9583"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/listCoupon"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/paddinglayout"
+        android:layout_weight="3"
+        android:background="@drawable/background_white_shape" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btnCoupon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_register_selector"
+            android:padding="15dp"
+            android:textSize="10pt"
+            android:layout_marginLeft="@dimen/paddinglayout"
+            android:layout_marginRight="@dimen/paddinglayout"
+            android:text="Coupon 등록"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

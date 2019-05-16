@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp" >
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="3583" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10319"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1222"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/cbPasswd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox_design"
+                android:checked="true"
+                android:text="@string/login_stored_in_the_phone"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/txtUserEmail"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1250"
+            android:ems="10"
+            android:gravity="left|center_vertical"
+            android:hint="@string/login_user_email_hint"
+            android:inputType="textEmailAddress" />
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="208" />
+
+        <EditText
+            android:id="@+id/txtPasswd"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1250"
+            android:ems="10"
+            android:gravity="left|center_vertical"
+            android:hint="@string/login_passwd_hint"
+            android:inputType="textPassword" />
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="208" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:scaleType="fitCenter"
+            android:src="@drawable/payment_period_line"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnLogin"
+            style="@style/btnOrangeShape"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_weight="1250"
+            android:background="@drawable/btn_login_shape_s"
+            android:text="@string/login_login_btn"
+            android:textColor="@android:color/white" />
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="600" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="974"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/btnfind"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:button="@drawable/iconfind"
+                    android:gravity="left"
+                    android:text="@string/login_find"
+                    android:textColor="#828181" />
+            </LinearLayout>
+
+            <View
+                android:visibility="gone"
+                android:layout_width="2dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:background="#aeb1ba" />
+
+            <LinearLayout
+                android:visibility="invisible"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_horizontal|center_vertical"
+                android:orientation="horizontal" >
+
+                <CheckBox
+                    android:id="@+id/btnSignUp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:button="@drawable/iconregister"
+                    android:gravity="left"
+                    android:text="  사용자 등록"
+                    android:textColor="#828181" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="1150" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2056"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/logo_signup" />
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="725" />
+    </LinearLayout>
+
+</LinearLayout>

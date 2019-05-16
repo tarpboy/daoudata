@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/cb_term_check" android:state_checked="true"/> <!-- checked -->
+    <item android:drawable="@drawable/cb_term_check" android:state_focused="true"/> <!-- focused -->
+    <item android:drawable="@drawable/cb_term" android:state_enabled="false"/> <!-- focused -->
+    <item android:drawable="@drawable/cb_term"/> <!-- default -->
+
+</selector>

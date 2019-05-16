@@ -1,0 +1,1060 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    
+    android:layout_height="match_parent"
+    
+    android:orientation="horizontal" >
+    <LinearLayout 
+        android:id="@+id/vPrint"
+        android:background="@drawable/bg_recipt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="403" />
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_height="match_parent"
+        android:layout_weight="4750"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12264"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                style="@style/layout_recipt_new"
+                android:layout_height="0dp"
+                android:layout_weight="1181"
+                android:orientation="vertical"
+                android:padding="0dp" >
+
+                <LinearLayout
+                    android:id="@+id/v1_new"
+                    style="@style/layout_recipt_new"
+                    android:layout_weight="417" >
+
+                    <TextView
+                        android:id="@+id/tvRight"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="카드매출전표(영수증)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout_recipt_new"
+                    android:layout_weight="278" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:text="전표번호 : "
+                        android:textSize="4pt" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/v6_new"
+                    style="@style/layout_recipt_new"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="417"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/txt_recipt_content"
+                        android:text="카드종류 / CARD TYPE" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/txt_recipt_content"
+                        android:paddingLeft="20dp"
+                        android:text="삼성카드" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layout_recipt_black"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3833"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/vReceiptCardNo3_new"
+                    style="@style/layout_recipt_black"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="431"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/txt_recipt_content"
+                        android:text="카드번호/ CARD NO." />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/txt_recipt_content"
+                        android:paddingLeft="20dp"
+                        android:text="3562-7945-5022-6666" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#6f6f6f" />
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_weight="431"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="958"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="유효기간" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text="**/**"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/vReceiptReqDate2_new"
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1833"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="거래일시" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:text="05/10/28 10:27:42"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/layoutRequestCancelDate"
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1736"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="취소요청일시" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:text=""
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#6f6f6f" />
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="431"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1361"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="거래요청" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text="신용승인"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3167"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="주문번호" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text="200510289843822"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="431"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/layoutTypeSub_new"
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1167"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="거래유형" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text="일시불"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3389"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            style="@style/layout_recipt_black"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="528"
+                            android:orientation="vertical" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="금액" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="AMOUNT" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten9"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten8"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten7"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten6"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten5"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten4"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten3"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="5" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten2"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loConten1"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="5" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="417"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1167" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="전표매입처" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text=""
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3389"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            style="@style/layout_recipt_black"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="528" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="세금" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="TAXES" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten9"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten8"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten7"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten6"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten5"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten4"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten3"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="4" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten2"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="5" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTaxConten1"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="5" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="469"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/vReceiptDivideMonthN"
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1167" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="할부개월" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text=""
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3389"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            style="@style/layout_recipt_black"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="528" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="봉사료" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="TIPS" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten9"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten8"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten7"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten6"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten5"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten4"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten3"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten2"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTipConten1"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="431"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/vCompanyOwnerName13_new"
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1167" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="카드사" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text=""
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3389"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            style="@style/layout_recipt_black"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="528" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="합계" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="TOTAL" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten9"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten8"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten7"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten6"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten5"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten4"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="5" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten3"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="0" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten2"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="0" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/loTotalConten1"
+                            style="@style/layout_recipt_black_content" >
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content_amount"
+                                android:text="0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_marginBottom="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_weight="431"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        
+                        style="@style/layout_recipt_black"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1167" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="비고" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center"
+                            android:text=""
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3389"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:id="@+id/vReceiptApproval5_new"
+                            style="@style/layout_recipt_black"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="3375" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:text="승인번호 / APPROVAL NO." />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center"
+                                android:text="82824949"
+                                android:textStyle="bold" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/layout_recipt_new"
+                android:layout_marginTop="0dp"
+                android:layout_weight="3042"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_weight="444"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        android:id="@+id/vReceiptCompanyNo12_new"
+                        style="@style/layout_recipt_new"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="0dp"
+                        android:layout_weight="2028" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="사업자 등록번호" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="1258184763" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/v11_new"
+                        style="@style/layout_recipt_new"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2500" >
+
+                        <TextView
+                            android:id="@id/tvLeft"
+                            style="@style/txt_recipt_content"
+                            android:text="가맹점명" />
+
+                        <TextView
+                            android:id="@id/tvRight"
+                            style="@style/txt_recipt_content"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="10dp"
+                            android:text="주식회사 페이펀" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vCompanyAddress15_new"
+                    style="@style/layout_recipt_new"
+                    android:layout_weight="444" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/txt_recipt_content"
+                        android:text="매장주소 / ADDRESS" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/txt_recipt_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="경기도 화성시 동탄면 반송동 93-10" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1417"
+                    android:orientation="horizontal" >
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2028"
+                        android:orientation="vertical" >
+
+                        <LinearLayout
+                            android:id="@+id/v4_new"
+                            style="@style/layout_recipt_new"
+                            android:layout_width="match_parent"
+                            android:layout_weight="2500" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="top"
+                                android:text="가맹점 번호" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:text="" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            style="@style/layout_recipt_new"
+                            android:layout_width="match_parent"
+                            android:layout_weight="2500" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:gravity="top"
+                                android:text="문의" />
+
+                            <TextView
+                                android:id="@id/tvRight"
+                                style="@style/txt_recipt_content"
+                                android:gravity="center_vertical"
+                                android:paddingLeft="10dp"
+                                android:text="" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/viewSpace"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2500"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            style="@style/layout_recipt_new"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" >
+
+                            <TextView
+                                android:id="@id/tvLeft"
+                                style="@style/txt_recipt_content"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="top"
+                                android:text="서명" />
+
+                            <ImageView
+                                android:id="@+id/imgSign_new"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/layout_recipt_new"
+                    android:layout_marginBottom="1dp"
+                    android:layout_weight="653" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/txt_recipt_content"
+                        android:gravity="top"
+                        android:text="비고" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/txt_recipt_content"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:text="" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+       
+    </LinearLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="403" />
+
+</LinearLayout>
+</LinearLayout>

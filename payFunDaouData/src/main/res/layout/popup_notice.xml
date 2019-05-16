@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/viewRoot"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/recipt_popup_shape"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_horizontal_margin" >
+
+        <TextView
+            android:id="@+id/tvNoticeTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="2014년 4월 30일 까지 사용이 가능합니다."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#aa8f67" />
+
+        <TextView
+            android:id="@+id/tvNoticeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="10"
+            android:text="서비스의 결제 비용은 기간에 따라 산정되며, 단한건의결제가없어도계정유지비용이청 구되는 유로 서비스 입니다. 한달은 31일로 책정됩니 다."
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:background="#aa8f67" />
+
+        <Button
+            android:id="@+id/btnNoticeOk"
+            style="@style/btnOrangeShape"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_register_selector"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@android:string/ok"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+</LinearLayout>

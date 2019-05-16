@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3417"
+        android:background="#1a75bc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/chartheader"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1514"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <TextView
+                android:id="@+id/txtChartDailyVan"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:text="만리장성 312-24-60876 "
+                android:textColor="@android:color/white"
+                android:textSize="8pt" />
+
+            <TextView
+                android:id="@+id/txtChartDailyDate"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:text="2014-04-01"
+                android:textColor="@android:color/white"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/white" />
+
+        <include
+            android:id="@+id/sticky"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1514"
+            layout="@layout/search_box"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="306" />
+
+    <!--
+         <FrameLayout
+        android:id="@+id/framelo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="top"
+        android:layout_weight="7056"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <ListView
+            android:id="@+id/listChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/txt_tranparent_shape"
+            android:dividerHeight="0dp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <include
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1444"
+        layout="@layout/bottom_layout" />
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <!-- </FrameLayout> -->
+
+</LinearLayout>

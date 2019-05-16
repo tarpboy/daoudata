@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_main"
+    android:orientation="horizontal" >
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="24" />
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_height="match_parent"
+        android:layout_weight="752"
+        android:fadingEdge="none"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1944"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="806" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1111"
+                android:background="@android:color/white"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <ImageButton
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/iconavata" />
+
+                <TextView
+                    android:id="@+id/tvUserName"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="6"
+                    android:gravity="center_vertical"
+                    android:text="PayFun 로그인 하십시오"
+                    android:textSize="17sp" />
+
+                <ImageButton
+                    android:id="@+id/btnMMLogin"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3"
+                    android:background="@android:color/transparent"
+                    android:scaleType="centerInside"
+                    android:src="@drawable/lock" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="556" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="3028" >
+
+            <ImageButton
+                android:id="@+id/btnMMCreditCard"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_credit_card_s"
+                android:src="@drawable/btn_mm_credit_card_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="278" />
+
+            <ImageButton
+                android:id="@+id/btnMMCashCard"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_cash_card_s"
+                android:src="@drawable/btn_mm_cash_card_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="278" />
+
+            <ImageButton
+                android:id="@+id/btnMMCancelList"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_cancel_list_s"
+                android:src="@drawable/btn_mm_cancel_list_s" />
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="333" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3028" >
+
+            <ImageButton
+                android:id="@+id/btnMMCancelPayment"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_cancel_payment_s"
+                android:src="@drawable/btn_mm_cancel_payment_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="278" />
+
+            <ImageButton
+                android:id="@+id/btnMMCoupon"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_coupon_s"
+                android:src="@drawable/btn_mm_coupon_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="278" />
+
+            <ImageButton
+                android:id="@+id/btnMMMemberShip"
+                style="@style/imageMenuHome"
+                android:background="@drawable/bg_btn_mm_member_ship_s"
+                android:src="@drawable/btn_mm_member_ship_s" />
+
+            <!--
+                 <ImageButton
+                android:id="@+id/btnMMLogin"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="161"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lock" />
+            -->
+
+
+            <!--
+                 <ImageButton
+                android:id="@+id/btnMMCancelList"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="94"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/btn_mm_cancel_list_s" />
+            -->
+
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="694" />
+    </LinearLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="24" />
+
+</LinearLayout>

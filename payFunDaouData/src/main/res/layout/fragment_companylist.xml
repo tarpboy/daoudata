@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f7f7f7"
+    android:orientation="vertical" >
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#1a75bc"
+        android:padding="5dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+
+        <EditText
+            android:id="@+id/txtListSearch"
+            style="@style/viewSpace"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:hint="SEARCH" />
+
+        <ImageButton
+            android:id="@+id/buttonsearch"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:src="@drawable/button_left_search_selector" />
+       
+    </LinearLayout>
+    
+     <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/pull_refresh_list"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="1035"
+        android:fadingEdge="none"
+        android:layout_margin="10dp"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" />
+
+    <ListView
+        android:id="@+id/lvListCompany"
+        style="@style/viewSpace"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_weight="1035" >
+
+    </ListView>
+
+</LinearLayout>

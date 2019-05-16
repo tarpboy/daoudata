@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <include
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="900"
+        layout="@layout/item_menu_main"
+        android:orientation="vertical" />
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="350"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="215" />
+
+            <ImageButton
+                android:id="@+id/btnMenuLeft"
+                style="@style/viewSpace"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_weight="80"
+                android:background="@android:color/transparent"
+                android:scaleType="fitStart"
+                android:src="@drawable/btn_mm_left_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="40" />
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="24" />
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:layout_height="match_parent"
+            android:layout_weight="752"
+            android:fadingEdge="none"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                style="@style/viewSpace"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="공지사항"
+                android:textColor="#828181"
+                android:gravity="center_vertical"/>
+
+            <ListView
+                android:layout_marginTop="10dp"
+                android:id="@+id/lvNotice"
+                style="@style/viewSpace"
+                android:layout_width="match_parent"
+                android:layout_weight="260"
+                android:divider="@android:color/transparent"
+                android:fadingEdge="none" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="35" />
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="24" />
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:visibility="gone"
+            android:layout_height="match_parent"
+            android:layout_weight="80"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="215" />
+
+            <ImageButton
+                android:id="@+id/btnMenuRight"
+                style="@style/viewSpace"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_weight="80"
+                android:background="@android:color/transparent"
+                android:scaleType="fitEnd"
+                android:src="@drawable/btn_mm_right_s" />
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="40" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

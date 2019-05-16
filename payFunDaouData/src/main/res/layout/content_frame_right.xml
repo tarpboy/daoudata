@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_right_menu"
+    android:orientation="vertical" >
+
+    <ImageButton
+        android:id="@+id/btnMRHome"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_home_s" />
+
+    <ImageButton
+        android:id="@+id/btnMRProfile"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_profile_s" />
+
+    <ImageButton
+        android:id="@+id/btnMRCredit"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_credit_s" />
+
+    <ImageButton
+        android:id="@+id/btnMRCash"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_cash_s" />
+
+    <ImageButton
+        android:id="@+id/btnMRHistory"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_history_s" />
+
+    <ImageButton
+        android:id="@+id/btnMRCoupon"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="120"
+        android:background="@android:color/transparent"
+        android:scaleType="fitEnd"
+        android:src="@drawable/btn_mr_coupon_s" />
+    
+    <LinearLayout android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="418"
+        android:gravity="top"
+    android:orientation="vertical">
+    
+    <ImageButton
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:layout_weight="260"
+        android:background="@android:color/transparent"
+        android:scaleType="fitXY"
+        android:src="@drawable/bg_right_menu_info" />
+    
+    <TextView
+        android:id="@+id/tvMenuSWInfo" 
+        android:layout_width="match_parent"
+        android:layout_weight="40"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/tvMenuHWModelInfo" 
+        android:layout_width="match_parent"
+        android:layout_weight="40"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    <TextView
+        android:id="@+id/tvMenuRightBatteryInfo" 
+        android:layout_width="match_parent"
+        android:layout_weight="40"
+        android:layout_height="0dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        />
+    <View
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="2dp"
+        android:layout_weight="75"
+         />
+    </LinearLayout>
+
+</LinearLayout>

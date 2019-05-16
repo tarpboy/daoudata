@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin">
+
+            <View
+                style="@style/viewSpace"
+                android:layout_height="16dp"
+                 />
+
+            <LinearLayout
+                style="@style/layoutReceipt"
+                android:layout_height="150dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/v1"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@+id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="NH농협체크" />
+
+                    <TextView
+                        android:id="@+id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="신용승인(일시불)" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptReqDate2"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="거래일시" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="12-09-13 15:14:59" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptCardNo3"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="카드번호" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="4330-2804-****-5706" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/v4"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="가맹점번호" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="602-76-735" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptApproval5"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="승인번호" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="05197951" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/v6"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="매입사" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="삼성카드" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                style="@style/viewSpace"
+                android:layout_height="10dp"
+                android:layout_weight="0.5" />
+
+            <LinearLayout
+                style="@style/layoutReceipt"
+                android:layout_height="125dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/vReceiptAmount7"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="판매금액" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="118 원" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptTax8"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="부가가치세" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="3,118 원" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptPoint9"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="포인트" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="500 P" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptTotalAmount10"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="합 계" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="34,300 원" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptDivideMonth"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="할부" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="1 개월" />
+                </LinearLayout>
+            </LinearLayout>
+
+			<!-- bank balance ammout -->
+            <View
+                android:id="@+id/vReceiptBankBalanceTop"
+                style="@style/viewSpace"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                android:id="@+id/vReceiptBankBalanceLayout"
+                style="@style/layoutReceipt"
+                android:layout_height="25dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/vReceiptBankBalance"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="@string/recipt_title_bank_balance_amount" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="118 원" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            <View
+                style="@style/viewSpace"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                style="@style/layoutReceipt"
+                android:layout_height="100dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/v11"
+                    style="@style/reciptLinearLayout"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="가맹점명" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="주식회사테스트" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/vReceiptCompanyNo12"
+                    style="@style/reciptLinearLayout"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="사업자번호" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="123-12-12345" />
+                </LinearLayout>
+
+                  <LinearLayout
+                    style="@style/reciptLinearLayout"
+                    android:orientation="horizontal"
+                      android:layout_weight="1">
+                    <LinearLayout
+                    android:id="@+id/vCompanyOwnerName13"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text="대표자명" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="테스트" />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/vCompanyPhone14"
+                     android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    style="@style/reciptLinearLayout" >
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        android:layout_marginLeft="5dp"
+                        style="@style/reciptTextViewLeft"
+                        android:text="TEL" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="1688-3876" />
+                </LinearLayout>
+
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/vCompanyAddress15"
+                    style="@style/reciptLinearLayout"
+                    android:layout_weight="2">
+
+                    <TextView
+                        android:id="@id/tvLeft"
+                        style="@style/reciptTextViewLeft"
+                        android:text=""
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@id/tvRight"
+                        style="@style/reciptTextViewRight"
+                        android:text="경남 창원시 마산회원구 3·15대로 594 (석전동) 숲속길마을월드메르디앙센트럴파크 734동 1257호"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/viewSign"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/background_white_shape"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <ImageView
+                    android:id="@+id/imgSign"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <View
+                style="@style/viewSpace"
+                android:layout_height="10dp"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="37dp"
+                android:gravity="center_vertical" >
+                <Button
+                    android:id="@+id/btnGotoDaily"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@drawable/button_confirm_selector"
+                    android:text="리스트 보기"
+                    android:textSize="7pt"
+                    android:textColor="#ffffff" />
+
+                <View style="@style/viewSpace"
+                    android:layout_weight="1"/>
+
+               <!--  <Button
+                    android:id="@+id/btnCancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4672"
+                    android:background="@drawable/button_cancel_selector"
+                    android:text="결재취소"
+                    android:textSize="7pt"
+                    android:textColor="#ffffff" />
+
+                <View style="@style/viewSpace"
+                    android:layout_weight="350"/> -->
+
+                <Button
+                    android:id="@+id/btnForward"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10"
+                    android:background="@drawable/button_confirm_selector"
+                    android:text="전송"
+                    android:textColor="#ffffff"
+                    android:textSize="7pt" />
+            </LinearLayout>
+
+            <View
+                style="@style/viewSpace"
+                android:layout_height="16dp"
+                 />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/rebuild_cache.dir
+/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/edit_cache.dir
+/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/x86_64/CMakeFiles/daou-sign-jni.dir

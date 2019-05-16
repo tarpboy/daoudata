@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/txtResCompanyNo"
+                style="@style/editextCardReading"
+                android:layout_marginTop="10dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|left"
+                android:hint="사업자 번호"
+                android:inputType="number"
+                android:paddingLeft="10dp"
+                android:maxLines="1"
+                android:maxLength="12"
+ 				android:text=""
+                />
+ 
+            <EditText
+                android:id="@+id/txtResMachineCode"
+                style="@style/editextCardReading"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|left"
+                android:hint="단말기 번호 "
+                android:paddingLeft="10dp"
+                android:maxLines="1"
+                android:text=""
+                android:maxLength="8"
+                android:inputType="number"
+                />
+<!--  -->
+            <EditText
+                android:id="@+id/txtPin"
+                style="@style/editextCardReading"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|left"
+                android:hint="Pin "
+                android:paddingLeft="10dp"
+                android:singleLine="true"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:text="세금 포함여부"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:paddingBottom="3dp"
+                    android:background="@drawable/background_card_shape"
+                    android:paddingTop="3dp" >
+
+                    <CheckBox
+                        android:id="@+id/cbWithTax"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="5dp"
+                        android:button="@null"
+                        android:checked="true"
+                        android:drawableRight="@drawable/checkbox_selector"
+                        android:gravity="right|center_vertical" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="세금설정"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/txtTaxsettings"
+                    style="@style/editextCardReading"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="2"
+                    android:gravity="right|center_vertical"
+                    android:inputType="number"
+                    android:paddingRight="5dp"
+                    android:text="10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="봉사료설정"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/txtServicechargeset"
+                    style="@style/editextCardReading"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="2"
+                    android:gravity="right|center_vertical"
+                    android:inputType="number"
+                    android:paddingRight="5dp"
+                    android:text="0" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnReaderOnOff"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_register_selector"
+                android:text="@string/register_van_bt_on_off"
+                android:textSize="16sp" />
+            <LinearLayout
+                android:id="@+id/llReaderConfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:background="@drawable/txt_background_white_shape"
+                android:orientation="vertical"
+                android:visibility="gone" >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+                    <TextView
+                        style="@style/viewSpace"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="Reader Type" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/background_card_shape"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp" >
+                        <RadioGroup
+                            android:id="@+id/rdgReadeType"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/reader_type_earjack"
+                                android:id="@+id/rdbEarjack"
+                                android:layout_gravity="center_horizontal" />
+                            <RadioButton
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/reader_type_bluetooth"
+                                android:id="@+id/rdbBluetooth"
+                                android:layout_gravity="center_horizontal" />
+                        </RadioGroup>
+                        <!--<Spinner-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:id="@+id/spReaderType"-->
+                        <!--android:entries="@array/reader_type"/>-->
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <TextView
+                        style="@style/viewSpace"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:text="Bluetooth Device" />
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="2"
+                        android:background="@drawable/background_card_shape"
+                        android:gravity="right|center_vertical"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/tvBTReaderName"
+                            style="@style/btnOrangeShape"
+                            android:background="@android:color/transparent"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
+                            android:text="Touch to setting"
+                            android:textStyle="normal"
+                            android:textColor="@android:color/black"
+                            android:layout_width="match_parent"
+                            android:paddingRight="30dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <Button
+                android:id="@+id/btnDownload"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/button_register_selector"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:enabled="false"
+                android:textColor="@android:color/white"
+                android:text="@string/register_van_download"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/loRegisterResult"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:padding="5dp"
+                android:background="@drawable/txt_background_white_shape"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Van 사업자 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailVanName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사업자 번호 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailComNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 명 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailCoName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 주소 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailAddr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 전화번호 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailComphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="대리점 전화번호 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailReselTel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Van 전화번호 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailVanTel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnSaveCompany"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/button_register_selector"
+                android:enabled="false"
+                android:text="@string/register_van_save_company"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/btnKeyBindingRegister"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:textColor="@android:color/white"
+                android:background="@drawable/button_register_selector"
+                android:enabled="false"
+                android:text="@string/btnKeyBinding"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

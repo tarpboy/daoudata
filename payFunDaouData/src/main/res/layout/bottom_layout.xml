@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <Button
+        android:id="@+id/btnChartDaily"
+        style="@style/buttonbottomchart"
+        android:background="@drawable/background_btn_chart_daily_s"
+        android:text="일별"
+        android:textStyle="bold" />
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <Button
+        android:id="@+id/btnChartMonth"
+        style="@style/buttonbottomchart"
+        android:background="@drawable/background_btn_chart_month_s"
+        android:text="월별"
+        android:textStyle="bold" />
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <Button
+        android:id="@+id/btnChartexcel"
+        style="@style/buttonbottomchart"
+        android:background="@drawable/background_btn_export_excel_s"
+        android:text="엑셀저장"
+        android:textStyle="bold" />
+
+</LinearLayout>

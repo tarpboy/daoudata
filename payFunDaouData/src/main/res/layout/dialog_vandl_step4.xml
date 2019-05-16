@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <FrameLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/border"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:layout_marginBottom="14dp"
+                android:background="@drawable/border_content"
+                android:gravity="center_horizontal|bottom"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_marginRight="15dp"
+                    android:gravity="center_horizontal|bottom"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_vandl1_title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="@string/vandl4_dialog_title"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="16dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="vertical">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"></View>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_1"/>
+
+                            <TextView
+                                android:id="@+id/tvVanName"
+                                style="@style/tv_content_step4"
+                                android:text="DaouData"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_2"/>
+
+                            <TextView
+                                android:id="@+id/tvCompanyNo"
+                                style="@style/tv_content_step4"
+                                android:text="125-86-27961"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_3"/>
+
+                            <TextView
+                                android:id="@+id/tvCompanyName"
+                                style="@style/tv_content_step4"
+                                android:text="(주)페이펀"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_4"/>
+
+                            <TextView
+                                android:id="@+id/tvAddress"
+                                style="@style/tv_content_step4"
+                                android:text="경기도 안성시 대덕면 서동대로 4726 31호(창업보육센터 1"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_5"/>
+
+                            <TextView
+                                android:id="@+id/tvPhoneNo"
+                                style="@style/tv_content_step4"
+                                android:text="02-1661-3262"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_6"/>
+
+                            <TextView
+                                android:id="@+id/tvRetailTel"
+                                style="@style/tv_content_step4"
+                                android:text="-"/>
+
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="#7d7d7d"></View>
+                        <LinearLayout
+                            style="@style/ll_content_step4">
+
+                            <TextView
+                                style="@style/tv_title_step4"
+                                android:text="@string/vandl4_dialog_title_7"/>
+
+                            <TextView
+                                android:id="@+id/tvVanTel"
+                                style="@style/tv_content_step4"
+                                android:text="-"/>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#000"></View>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    android:background="@drawable/border_gray"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vandl4_dialog_content"
+                        android:textColor="#7d7d7d"
+                        android:textSize="16dp"
+                        android:gravity="center"/>
+
+
+                </LinearLayout>
+
+                <include
+                    layout="@layout/dialog_vandl_footer"></include>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <include
+            layout="@layout/dialog_vandl_header"></include>
+
+    </FrameLayout>
+</ScrollView>

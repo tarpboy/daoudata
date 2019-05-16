@@ -1,0 +1,40 @@
+{
+  "stringTable": {
+    "0": "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/arm64-v8a",
+    "1": "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -fno-addrsig -Wa,--noexecstack -Wformat -Werror=format-security -stdlib=libc++  -O0 -fno-limit-debug-info  -fPIC  "
+  },
+  "buildFiles": [
+    "/Users/jaewooklee/Library/Android/sdk/ndk-bundle/build/cmake/platforms.cmake",
+    "/Users/jaewooklee/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake",
+    "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/src/main/jni/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/jaewooklee/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/arm64-v8a --target clean"
+  ],
+  "libraries": {
+    "daou-sign-jni-Debug-arm64-v8a": {
+      "buildCommand": "/Users/jaewooklee/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/.externalNativeBuild/cmake/debug/arm64-v8a --target daou-sign-jni",
+      "buildType": "debug",
+      "toolchain": "2573329341",
+      "abi": "arm64-v8a",
+      "artifactName": "daou-sign-jni",
+      "files": [
+        {
+          "src": "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/src/main/jni/daou-sign-jni.cpp",
+          "flagsOrdinal": 1,
+          "workingDirectoryOrdinal": 0
+        }
+      ],
+      "output": "/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/cmake/debug/obj/arm64-v8a/libdaou-sign-jni.so"
+    }
+  },
+  "toolchains": {
+    "2573329341": {
+      "cppCompilerExecutable": "/Users/jaewooklee/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

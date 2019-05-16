@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="100"
+        android:background="@drawable/bg_title_text"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="QR코드"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1035"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="1583"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|center_horizontal"
+                android:text="화면에 QR코드를 대면 자동으로 인식합니다."
+                android:textColor="@android:color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="8239"
+            android:orientation="vertical" >
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="417" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="7417"
+                android:orientation="horizontal" >
+
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="125" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="700"
+                    android:layout_height="match_parent" >
+
+                    <FrameLayout
+                        android:id="@+id/cameraPreview"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <TextView
+                        android:id="@+id/tvBarCodeResult"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center_horizontal"
+                        
+                        android:textSize="13pt"
+                        android:visibility="gone" />
+                </RelativeLayout>
+<!-- android:textColor="@color/opaque_red" -->
+                <View
+                    style="@style/viewSpace"
+                    android:layout_weight="125" />
+            </LinearLayout>
+
+            <View
+                style="@style/viewSpace"
+                android:layout_weight="417" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3136"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            >
+            <View
+                    style="@style/viewSpace"
+                    android:layout_weight="500" />
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1500"
+            android:padding="10dp" 
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/btnBarcodeCancel"
+                style="@style/buttoncash"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/button_cancel_selector"
+                android:text="취소" />
+
+            <Button
+                android:id="@+id/btnBarcodeConfirm"
+                style="@style/buttoncash"
+                 android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/button_confirm_selector"
+                android:text="확인" />
+            </LinearLayout>
+            <View
+                    style="@style/viewSpace"
+                    android:layout_weight="500" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="110"
+        android:background="@android:color/white"
+        android:orientation="horizontal"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp" >
+
+        <ImageButton
+            android:id="@+id/btnMRMenuLeft"
+            style="@style/imageMenuLR"
+            android:scaleType="fitStart"
+            android:src="@drawable/btn_mm_left_s" />
+
+        <ImageButton
+            android:id="@+id/menuMainHome"
+            style="@style/imageMenuMain"
+            android:src="@drawable/button_main_home_selector" />
+
+        <ImageButton
+            android:id="@+id/menuMainCredit"
+            style="@style/imageMenuMain"
+            android:src="@drawable/button_main_credit_selector" />
+
+        <ImageButton
+            android:id="@+id/menuMainCash"
+            style="@style/imageMenuMain"
+            android:src="@drawable/button_main_cash_selector" />
+
+        <ImageButton
+            android:id="@+id/menuMainCancelList"
+            style="@style/imageMenuMain"
+            android:src="@drawable/button_main_cancellist_selector" />
+
+        <ImageButton
+            android:id="@+id/btnMRMenuRight"
+            style="@style/imageMenuLR"
+            android:scaleType="fitEnd"
+            android:src="@drawable/btn_mm_right_s" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="1398" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/p_11_03" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="5861"
+        android:background="@drawable/txt_while_term_shape"
+        android:orientation="vertical" >
+		<ScrollView android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4528">
+            <TextView
+                android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/terms1" /></ScrollView>
+        
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#b5b6b6" />
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="1px"
+            android:layout_marginLeft="1px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1333"
+            android:background="#f2f2f2"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp" >
+
+            <CheckBox
+                android:id="@+id/cbterm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox_term_selector"
+                android:text=""
+                android:gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="동의합니다" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="1750" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/p_11_07" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="5889"
+        android:background="@drawable/txt_while_term_shape"
+        android:orientation="vertical" >
+		<ScrollView 
+		    android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4528">
+        <TextView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:text="@string/terms2" />
+        </ScrollView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#b5b6b6" />
+
+        <LinearLayout
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="1px"
+            android:layout_marginLeft="1px"
+            android:layout_marginRight="1px"
+            android:layout_weight="1417"
+            android:background="#f2f2f2"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:orientation="horizontal" >
+
+            <CheckBox
+                android:id="@+id/cbterm2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:enabled="false"
+                android:drawableRight="@drawable/checkbox_term_selector"
+                android:gravity="right|center_vertical" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="동의하고 계속 진행합니다" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/viewSpace"
+        android:layout_weight="1000" >
+    </LinearLayout>
+
+</LinearLayout>

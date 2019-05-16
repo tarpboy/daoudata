@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- <TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"> -->
+    <LinearLayout
+         xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:background="@drawable/bg_load"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       
+        <!-- <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1100"/>
+         <TabWidget
+            android:id="@android:id/tabs"
+            android:tabStripEnabled="false"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="100" /> -->
+    </LinearLayout>
+<!-- </TabHost> -->
+
+
+
+
+
+
+
+
+
+<!-- <?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <FrameLayout
+        android:id="@+id/content_frame_load"
+        style="@style/viewSpace"
+        android:layout_width="match_parent"
+        android:layout_weight="1035" />
+
+        <LinearLayout
+            android:id="@+id/layoutMenu"
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_weight="90" >
+
+            <ImageButton
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_home_selector" />
+
+            <ImageButton
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_category_selector" />
+
+            <ImageButton
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_retrieve_selector" />
+
+            <ImageButton
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_profile_selector" />
+        </LinearLayout>
+
+</LinearLayout> -->

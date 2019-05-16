@@ -1,0 +1,37 @@
+-injars /Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/proguard/release/jars/3/1f/main.jar
+-outjars /Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/multi-dex/release/componentClasses.jar
+
+-libraryjars /Users/jonathan/Downloads/adt-bundle-mac-x86_64-20140702/sdk/build-tools/25.0.0/lib/shrinkedAndroid.jar
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **
+-dontwarn **
+-printconfiguration /Users/jonathan/Desktop/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/multi-dex/release/components.flags
+
+
+-keep public class * extends android.app.Instrumentation {
+    <init>();
+}
+
+-keep public class * extends android.app.Application {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

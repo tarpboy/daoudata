@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="0dp" >
+
+        <LinearLayout
+            android:id="@+id/viewHeader"
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_weight="1611"
+            android:background="@drawable/bg_title_no_text"
+            android:orientation="horizontal" >
+
+           
+
+
+                <!--
+                 <View
+                style="@style/viewSpace"
+                android:layout_weight="39" />
+                -->
+
+                <TextView
+                    android:id="@+id/tvHeaderTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:textColor="@android:color/white"
+                    android:textSize="9pt" />
+
+                <!--
+                 <View
+                style="@style/viewSpace"
+                android:layout_weight="31" />
+                -->
+            
+        </LinearLayout>
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            style="@style/viewSpace"
+            android:background="#f2f2f2"
+            android:layout_width="match_parent"
+            android:layout_weight="12667" />
+
+        <LinearLayout
+            android:id="@+id/layoutMenu"
+            style="@style/viewSpace"
+            android:layout_width="match_parent"
+            android:layout_weight="1417"
+            android:background="@android:color/white"
+            android:orientation="horizontal"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" >
+
+            <ImageButton
+                android:id="@+id/btnMRMenuLeft"
+                style="@style/imageMenuLR"
+                android:scaleType="fitStart"
+                android:src="@drawable/btn_mm_left_s" />
+
+            <ImageButton
+                android:id="@+id/menuMainHome"
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_home_selector" />
+
+            <ImageButton
+                android:id="@+id/menuMainCredit"
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_credit_selector" />
+
+            <ImageButton
+                android:id="@+id/menuMainCash"
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_cash_selector" />
+
+            <ImageButton
+                android:id="@+id/menuMainCancelList"
+                style="@style/imageMenuMain"
+                android:src="@drawable/button_main_cancellist_selector" />
+
+            <ImageButton
+                android:id="@+id/btnMRMenuRight"
+                style="@style/imageMenuLR"
+                android:scaleType="fitEnd"
+                android:src="@drawable/btn_mm_right_s" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <com.devcrane.payfun.daou.customkeypad.KeyboardViewNumber
+        android:id="@+id/keyboard_view"
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:layout_marginBottom="4dp"
+        android:focusable="true"
+        android:layout_alignParentBottom="true"
+        android:focusableInTouchMode="true"
+        android:shadowRadius="0.0"
+        android:keyPreviewLayout="@layout/input_key_preview"
+        android:visibility="visible"
+        android:background="#f2f2f2"
+        android:keyTextColor="#000000"
+        android:keyTextSize="30sp"
+        android:keyBackground="@drawable/push_keyboard_btn"
+        android:labelTextSize="30sp"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+    <View 
+        style="@style/viewSpace"
+        android:layout_weight="444"/>
+
+    <LinearLayout
+        android:baselineAligned="false"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1014"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/chart_btn_month_pre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pre" />
+
+            <TextView
+                android:id="@+id/chart_tv_month"
+                style="@style/editSearchBox"
+                android:background="@drawable/txt_background_white_no_boder_shape" />
+
+            <Button
+                android:id="@+id/chart_btn_month_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/chart_btn_quarter_pre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pre" />
+
+            <TextView
+                android:id="@+id/chart_tv_quarter"
+                style="@style/editSearchBox"
+                android:background="@drawable/txt_background_white_no_boder_shape" />
+
+            <Button
+                android:id="@+id/chart_btn_quarter_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/next" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/chart_btn_type_pre"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/pre" />
+
+            <TextView
+                android:id="@+id/chart_tv_type"
+                style="@style/editSearchBox"
+                android:background="@drawable/txt_background_white_no_boder_shape" />
+
+            <Button
+                android:id="@+id/chart_btn_type_next"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/next" />
+        </LinearLayout>
+    </LinearLayout>
+    <View 
+        style="@style/viewSpace"
+        android:layout_weight="444"/>
+
+</LinearLayout>

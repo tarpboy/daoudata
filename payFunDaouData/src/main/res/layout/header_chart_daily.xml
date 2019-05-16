@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/paddinglayout"
+    android:paddingRight="@dimen/paddinglayout" >
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="306" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1736"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <LinearLayout style="@style/layoutheaderchartdaily" >
+
+            <TextView
+                style="@style/textheaderchartdaily"
+                android:text="일별" />
+
+            <Button
+                android:id="@+id/buttongetchartdaily"
+                style="@style/buttonheaderchartdaily"
+                android:text="2017-07-01"
+                android:textSize="5pt" >
+            </Button>
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="153" />
+
+        <LinearLayout style="@style/layoutheaderchartdaily" >
+
+            <TextView
+                style="@style/textheaderchartdaily"
+                android:text="월별" />
+
+            <Button
+                android:id="@+id/buttongetchartmontly"
+                style="@style/buttonheaderchartdaily"
+                android:text="2014-07"
+                android:textSize="5pt" >
+            </Button>
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="153" />
+
+        <LinearLayout style="@style/layoutheaderchartdaily" >
+
+            <TextView
+                style="@style/textheaderchartdaily"
+                android:text="분기별" />
+
+            <Spinner
+                android:id="@+id/spinnergetchartquarterly"
+                style="@style/buttonheaderchartdaily"
+                android:textSize="5pt" >
+            </Spinner>
+        </LinearLayout>
+
+        <View
+            style="@style/viewSpace"
+            android:layout_weight="153" />
+
+        <LinearLayout style="@style/layoutheaderchartdaily" >
+
+            <TextView
+                style="@style/textheaderchartdaily"
+                android:text="종류" />
+
+            <Spinner
+                android:id="@+id/spinnergetcharttype"
+                style="@style/buttonheaderchartdaily"
+                android:textSize="5pt" >
+            </Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="264" />
+
+</LinearLayout>

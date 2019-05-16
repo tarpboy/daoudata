@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:isScrollContainer="false"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="200"
+                android:orientation="vertical" >
+
+                <include
+                    android:id="@+id/include1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/credit_card_top" />
+            </LinearLayout>
+
+			<TextView
+			    android:id="@+id/tvPaymentStatus"
+			    style="@style/viewSpace"
+			    android:layout_width="match_parent"
+			    android:layout_weight="80"
+			    android:gravity="center_vertical|center_horizontal"
+			    android:paddingLeft="10dp"
+			    android:layout_marginBottom="10dp"
+			    android:layout_marginTop="10dp"
+			    android:textSize="9pt" />
+			
+            <LinearLayout
+                android:layout_width="match_parent"
+                
+                android:layout_height="0dp"
+                android:layout_weight="900"
+                android:orientation="vertical"
+                android:weightSum="9" >
+
+               <LinearLayout
+                   android:layout_width="match_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="7"
+                   android:orientation="vertical" >
+
+				<LinearLayout 
+				    style="@style/linercash"
+				   
+				    android:orientation="horizontal"
+				    >
+	                <EditText
+	                    android:id="@+id/txtCancelCard"
+	                    style="@style/editextCardReading"
+	                    android:layout_height="match_parent"
+	                    android:layout_width="0dp"
+	                    android:layout_weight="4"
+	                    android:layout_marginLeft="0dp"
+	                    android:layout_marginRight="10dp"
+	                    android:layout_marginTop="0dp"
+	                    android:hint="카드를 읽히거나 정보를 입력해 주세요."
+	                    android:inputType="number"
+	                    android:maxLength="19"
+	                    android:paddingBottom="10dp"
+	                    android:paddingTop="10dp"
+	                    android:textSize="8pt" />
+	                <Button
+	                    android:id="@+id/btnReadCard" 
+	                    android:layout_height="match_parent" 
+	                    android:layout_width="0dp"
+	                    android:layout_weight="1"
+	                    android:background="@drawable/button_confirm_selector"
+	                    android:textColor="@android:color/white"
+	                    android:text="@string/btnReadCard"/>
+				</LinearLayout>
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/txt_input_amount"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtCancelReqDate"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="10dp"
+                        android:text="거래일시"
+                        android:textSize="8pt" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/txt_input_amount"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtCancelTAmount"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:gravity="center_vertical|right"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="10dp"
+                        android:text=""
+                        android:textSize="8pt" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="원" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/txt_input_amount"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtCancelApprovalnumber"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingRight="3dp"
+                        android:paddingTop="10dp"
+                        android:text="승인번호"
+                        android:textSize="8pt" />
+                </LinearLayout>
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_marginTop="10dp"
+                    android:orientation="horizontal"
+                    android:paddingBottom="10dp"
+                         >
+                    <TextView
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="16sp"
+                    android:text=""
+                    android:gravity="bottom|left"
+                    android:paddingLeft="10dp"
+                    />
+                    <TextView
+                    
+                    style="@style/viewSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:text="@string/txtProgramTitle"
+                    android:gravity="bottom|right"
+                    android:paddingRight="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    />
+                    </LinearLayout>
+               <!--  <LinearLayout
+			    android:id="@+id/viewSign"
+			    android:layout_width="match_parent"
+			    android:layout_height="0dp"
+			    android:layout_gravity="top"
+			    android:layout_margin="10dp"
+			    android:layout_weight="8139"
+			    android:background="@drawable/txt_black_shape"
+			    android:gravity="top|center"
+			    android:orientation="vertical" > 
+
+            </LinearLayout>-->
+            
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/linercash"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" 
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
+
+                    <Button
+                        android:id="@+id/btnCancel"
+                        style="@style/buttoncash"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4444"
+                        android:background="@drawable/button_cancel_selector"
+                        android:text="취소"
+                        android:textSize="10pt" />
+
+                    <View
+                        style="@style/viewSpace"
+                        android:layout_weight="211" />
+
+                    <Button
+                        android:id="@+id/btnConfirm"
+                        style="@style/buttoncash"
+                        android:layout_height="match_parent"
+                        android:layout_weight="4444"
+                        android:background="@drawable/button_confirm_selector"
+                        android:text="확인"
+                        android:textSize="10pt" />
+                </LinearLayout>
+                 <View
+                    style="@style/viewSpace"
+                     />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

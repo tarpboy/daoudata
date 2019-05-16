@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/paddinglayout" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Wifi 사용 유무" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" >
+
+            <CheckBox
+                android:id="@+id/cbWifi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:button="@null"
+                android:drawableRight="@drawable/checkbox_selector"
+                android:gravity="right|center_vertical" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="대리점 통화" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" >
+
+            <Button
+                style="@style/btnOrangeShape"
+                android:background="@drawable/telephone_call_s"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="버전 정보" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/appVersion"
+                style="@style/btnOrangeShape"
+                android:background="@android:color/transparent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="50dp"
+                android:text="2.0"
+                android:textStyle="normal"
+                android:textColor="@android:color/black"
+                android:paddingRight="30dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin" >
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Reader Type" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="3dp"
+            android:paddingTop="3dp" >
+            <RadioGroup
+                android:id="@+id/rdgReadeType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reader_type_earjack"
+                    android:id="@+id/rdbEarjack"
+                    android:layout_gravity="center_horizontal" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/reader_type_bluetooth"
+                    android:id="@+id/rdbBluetooth"
+                    android:layout_gravity="center_horizontal" />
+            </RadioGroup>
+
+            <!--<Spinner-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/spReaderType"-->
+                <!--android:entries="@array/reader_type"/>-->
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Bluetooth Device" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvBTReaderName"
+                style="@style/btnOrangeShape"
+                android:background="@android:color/transparent"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Touch to setting"
+                android:textStyle="normal"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:paddingRight="30dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Server Ip" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtVanIp"
+                style="@style/btnOrangeShape"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:paddingBottom="10dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+                android:textColor="@android:color/black"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin">
+
+        <TextView
+            style="@style/viewSpace"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Server Port" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@drawable/background_card_shape"
+            android:gravity="right|center_vertical"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtVanPort"
+                style="@style/btnOrangeShape"
+                android:layout_width="match_parent"
+                android:background="@android:color/transparent"
+                android:paddingBottom="10dp"
+                android:paddingRight="30dp"
+                android:paddingTop="10dp"
+
+                android:textColor="@android:color/black"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<View
+    android:layout_width="0dp"
+    android:layout_height="match_parent"
+    android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnSaveVanServer"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="40dp"
+
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:background="@drawable/button_register_selector"
+            android:text="Save" />
+    </LinearLayout>
+</LinearLayout>

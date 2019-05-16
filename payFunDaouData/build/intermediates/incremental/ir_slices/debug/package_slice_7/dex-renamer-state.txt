@@ -1,0 +1,4 @@
+#Mon Jan 28 22:29:47 KST 2019
+base.0=/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/transforms/dexMerger/debug/7
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,15 @@
+#Internal package file, do not edit.
+#Sun Jan 27 22:18:05 KST 2019
+1.base=/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.path=payfun1.db
+0.baseType=DIRECTORY
+2.base=/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.set=ASSET
+1.baseType=DIRECTORY
+count=3
+1.set=ASSET
+0.path=databases/payfun.db
+0.set=ASSET
+0.base=/Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/merged_assets/debug/mergeDebugAssets/out
+2.baseType=DIRECTORY
+1.path=fonts/NanumGothicExtraBold.ttf

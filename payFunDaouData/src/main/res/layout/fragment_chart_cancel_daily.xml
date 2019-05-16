@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4125"
+        android:background="#1a75bc"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/chartheader"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1792"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtChartDailyVanCompanyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:text="상호 : 길정보통신"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txtChartDailyVan"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:text="만리장성 "
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/txtChartDailyVanCompanyNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|left"
+                    android:text="312-24-60876 "
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txtChartDailyDate"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="2014-04-01"
+                android:textColor="@android:color/white"
+                android:textSize="8pt" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.1dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/white" />
+
+        <include
+            android:id="@+id/sticky"
+            android:layout_width="match_parent"
+           android:layout_height="0dp"
+            android:layout_weight="2333"
+            layout="@layout/header_chart_daily"
+            android:clickable="true"
+            android:focusable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1028"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/paddinglayout"
+        android:paddingRight="@dimen/paddinglayout" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:text="일별목록"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/chartdailydate"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:text="(2014-04-01)" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+             android:textStyle="bold"
+            android:gravity="center_vertical|right"
+            android:text="합계 : " />
+
+        <TextView
+            android:id="@+id/chartdailytotalAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:text="0"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+             android:textStyle="bold"
+            android:text="원" />
+    </LinearLayout>
+    <!--
+         <FrameLayout
+        android:id="@+id/framelo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="@dimen/paddinglayout"
+        android:paddingRight="@dimen/paddinglayout"
+        android:layout_weight="5597" >
+
+        <ListView
+            android:id="@+id/listChart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/txt_tranparent_shape"
+            android:dividerHeight="0dp" />
+    </RelativeLayout>
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <include
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1444"
+        layout="@layout/bottom_layout" />
+
+    <View
+        style="@style/viewSpace"
+        android:layout_weight="333" />
+
+    <!--
+             <include
+            android:id="@+id/sticky"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            layout="@layout/header_chart_daily"
+            android:clickable="true"
+            android:focusable="true" />
+    -->
+    <!-- </FrameLayout> -->
+
+</LinearLayout>

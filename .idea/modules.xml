@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/daoudata.iml" filepath="$PROJECT_DIR$/daoudata.iml" />
+      <module fileurl="file://$PROJECT_DIR$/emvReaderService/emvReaderService.iml" filepath="$PROJECT_DIR$/emvReaderService/emvReaderService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/libRefreshListview/libRefreshListview.iml" filepath="$PROJECT_DIR$/libRefreshListview/libRefreshListview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/payFunDaouData/payFunDaouData.iml" filepath="$PROJECT_DIR$/payFunDaouData/payFunDaouData.iml" />
+      <module fileurl="file://$PROJECT_DIR$/slidingMenu/slidingMenu.iml" filepath="$PROJECT_DIR$/slidingMenu/slidingMenu.iml" />
+    </modules>
+  </component>
+</project>

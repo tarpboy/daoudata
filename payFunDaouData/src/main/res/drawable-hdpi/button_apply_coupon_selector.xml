@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--   <item android:drawable="@drawable/background_button_reader_active" android:state_enabled="true"/ -->><!--  --> <!-- pressed -->
+    <item android:drawable="@drawable/background_button_apply_coupon_select" android:state_pressed="true"/> <!-- pressed -->
+    <item android:drawable="@drawable/background_button_apply_coupon_select" android:state_focused="true"/> <!-- focused -->
+    <item android:drawable="@drawable/background_button_apply_coupon"/> <!-- default -->
+
+</selector>

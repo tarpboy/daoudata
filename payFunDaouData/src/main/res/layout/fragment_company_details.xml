@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:fillViewport="true"
+        android:layout_height="fill_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <LinearLayout
+                android:id="@+id/locomdetail0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_card_shape"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Van 사업자 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailVanName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="사업자 번호 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailComNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 명 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailCoName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 주소 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailAddr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="가맹점 전화번호 :"
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailComphone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="대리점 전화번호 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailReselTel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="left"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Van 전화번호 : "
+                        android:textColor="@android:color/black" />
+
+                    <TextView
+                        android:id="@+id/txtComdetailVanTel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:textColor="@android:color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/locomdetail1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomdetail0"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:text="세금 포함여부"
+                    android:textSize="16sp" />
+                
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:paddingBottom="3dp"
+                    android:background="@drawable/background_card_shape"
+                    android:paddingTop="3dp" >
+
+                    <CheckBox
+                        android:id="@+id/cbComdetailWithTax"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginRight="5dp"
+                        android:button="@null"
+                        android:checked="true"
+                        android:drawableRight="@drawable/checkbox_selector"
+                        android:gravity="right|center_vertical" />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text=""
+                    android:textSize="16sp" />
+
+                
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/locomdetail2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomdetail1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="세금설정"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edComdetailTaxsettings"
+                    style="@style/editextCardReading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="2"
+                    android:gravity="right|center_vertical"
+                    android:inputType="number"
+                    android:paddingRight="5dp"
+                    android:text="10" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="%"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/locomdetail3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomdetail2"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="봉사료설정"
+                    android:textSize="16sp" />
+
+                <EditText
+                    android:id="@+id/edComdetailServicechargeset"
+                    style="@style/editextCardReading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginRight="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="2"
+                    android:gravity="right|center_vertical"
+                    android:inputType="number"
+                    android:paddingRight="5dp"
+                    android:text="0" />
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical"
+                    android:text="%"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentBottom="true"
+                android:paddingBottom="10dp"
+                android:layout_below="@+id/locomdetail3"
+                android:orientation="vertical" >
+
+                <Button
+                    android:id="@+id/btnComdetailSaveCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="단말기 등록"
+                    android:textSize="10pt" />
+                
+                <Button
+                    android:id="@+id/btnDeleteCompany"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="@string/btn_delete_company"
+                    android:textSize="10pt" />
+                <LinearLayout
+                android:id="@+id/intergrity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomdetail1"
+                android:orientation="horizontal" >
+                    <Button android:id="@+id/btnIntegrityCheck"
+                    android:layout_width="0dp"
+                    android:layout_weight="95"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="@string/btnIntegrityCheck"
+                    android:textSize="8pt" />
+                    <View android:layout_width="0dp"
+                    android:layout_weight="10" 
+                    android:layout_height="match_parent"/>
+                    <Button android:id="@+id/btnIntegrityLog"
+                    android:layout_width="0dp"
+                    android:layout_weight="95"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="@string/btnIntegrityLog"
+                    android:textSize="8pt" />
+                    </LinearLayout>
+                <LinearLayout
+                android:id="@+id/keybiding_readerconfig"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/locomdetail1"
+                android:orientation="horizontal" >
+                    <Button android:id="@+id/btnKeyBinding"
+                    android:layout_width="0dp"
+                    android:layout_weight="95"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="@string/btnKeyBinding"
+                    android:textSize="8pt" />
+                    <View android:layout_width="0dp"
+                    android:layout_weight="10" 
+                    android:layout_height="match_parent"/>
+                    <Button android:id="@+id/btnReaderConfig"
+                    android:layout_width="0dp"
+                    android:layout_weight="95"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/button_register_selector"
+                    android:paddingBottom="5dp"
+                    android:textColor="@android:color/white"
+                    android:paddingTop="5dp"
+                    android:text="@string/btnReaderConfig"
+                    android:textSize="8pt" />
+                    </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

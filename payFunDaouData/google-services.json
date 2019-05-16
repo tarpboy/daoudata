@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "579562880741",
+    "firebase_url": "https://project-3222761249275452536.firebaseio.com",
+    "project_id": "project-3222761249275452536",
+    "storage_bucket": "project-3222761249275452536.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579562880741:android:113a9030f6025781",
+        "android_client_info": {
+          "package_name": "com.devcrane.pflocal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579562880741-la5atenc285jj2h4gf78s7eiaec5edj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuoqXlC__8QAcjV9g4NiqP_TLvvCgzcRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579562880741:android:8f91941ba50fd711",
+        "android_client_info": {
+          "package_name": "com.devcrane.payfun.daou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579562880741-la5atenc285jj2h4gf78s7eiaec5edj4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuoqXlC__8QAcjV9g4NiqP_TLvvCgzcRw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

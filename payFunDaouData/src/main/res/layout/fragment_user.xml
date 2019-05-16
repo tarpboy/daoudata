@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layoutView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/paddinglayout"
+            android:paddingRight="@dimen/paddinglayout"
+            android:visibility="visible" >
+
+            <CheckBox
+                android:id="@+id/cbPrivacyPolicy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/privacy_policy_add"
+                android:textColor="#6c5241" />
+
+            <LinearLayout
+                android:id="@+id/viewSearch3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/linearSearchRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/txt_use_while_search_selector"
+                    android:orientation="horizontal" >
+
+                    <EditText
+                        android:id="@+id/txtSearchRegister"
+                        style="@style/txt_user"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="0dp"
+                        android:layout_weight="1"
+                        android:background="@android:color/transparent"
+                        android:ems="10"
+                        android:hint="사업자 번호 검색"
+                        android:inputType="number" />
+
+                    <Button
+                        android:id="@+id/btnSearchRegister"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:background="@drawable/button_search_company_selector"
+                        android:gravity="center"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="10dp"
+                        android:text="검색"
+                        android:textColor="@android:color/white" />
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/txtInfo"
+                    style="@style/txt_user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/txt_brown_user_shape"
+                    android:ems="10"
+                    android:enabled="false"
+                    android:gravity="left"
+                    android:inputType="textMultiLine"
+                    android:lines="3" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/txtName123"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:hint="이 름" />
+
+            <EditText
+                android:id="@+id/txtEmail123"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="이메일 (아이디)" />
+
+            <EditText
+                android:id="@+id/txtPasswd123"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/txtPasswdConfirm123"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="비밀번호 확인"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/txtCompanyNo12"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="사업자 번호"
+                android:inputType="number"
+                android:maxLength="12" />
+
+            <EditText
+                android:id="@+id/txtCompanyName1"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="사업자 명" />
+
+            <EditText
+                android:id="@+id/txtCompanyPhone1"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="사업자 전화번호"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/txtAddress1"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="사업장 주소" />
+
+            <!--<LinearLayout-->
+                <!--android:id="@+id/linearAddress1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:background="@drawable/txt_use_while_search_selector"-->
+                <!--android:orientation="horizontal" >-->
+
+                <!--<Button-->
+                    <!--android:id="@+id/getAddress"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginRight="5dp"-->
+                    <!--android:background="@drawable/button_search_company_selector"-->
+                    <!--android:gravity="center"-->
+                    <!--android:paddingBottom="10dp"-->
+                    <!--android:paddingLeft="20dp"-->
+                    <!--android:paddingRight="20dp"-->
+                    <!--android:paddingTop="10dp"-->
+                    <!--android:text="주소"-->
+                    <!--android:textColor="@android:color/white" />-->
+            <!--</LinearLayout>-->
+
+
+            <EditText
+                android:id="@+id/txtAddressDetails1"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="사업장 세부 주소" />
+
+            <EditText
+                android:id="@+id/txtPartnerCode12"
+                style="@style/txt_user"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="대리점 코드" />
+
+            <LinearLayout
+                android:id="@+id/linearSearchBranch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/txt_use_while_search_selector"
+                android:orientation="horizontal" >
+
+                <EditText
+                    android:id="@+id/txtBranchID"
+                    style="@style/txt_user"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:ems="10"
+                    android:hint="대리점 코드" />
+
+                <Button
+                    android:id="@+id/btnSearchBranchID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/button_search_company_selector"
+                    android:gravity="center"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:text="확인"
+                    android:textColor="@android:color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btnCancel"
+                    style="@style/buttoncash"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="4444"
+                    android:background="@drawable/button_cancel_selector"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="취소"
+                    android:textSize="10pt" />
+
+                <Button
+                    android:id="@+id/btnRegister"
+                    style="@style/buttoncash"
+                    android:layout_weight="4444"
+                    android:background="@drawable/button_confirm_selector"
+                    android:paddingBottom="15dp"
+                    android:paddingTop="15dp"
+                    android:text="확인"
+                    android:textSize="10pt" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutPostCode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone"
+            android:orientation="vertical" >
+
+            <WebView
+                android:id="@+id/webviewpostcode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

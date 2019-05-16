@@ -1,0 +1,2 @@
+# Referenced at /Users/jaewooklee/Downloads/PayFun/payfun/다우소스/daoudata/payFunDaouData/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml:62
+-keep class com.devcrane.payfun.daou.utility.AppHelper { <init>(...); }
